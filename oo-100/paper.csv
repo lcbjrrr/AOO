@@ -1,0 +1,1526 @@
+paper_id,title,published_date,abstract,entry_id,section_id,theme_id
+1,New Heuristics for Interfacing Human Motor System using Brain Waves,2012-11-24 01:21:25,"There are many new forms of interfacing human users to machines. We persevere
+here electric mechanical form of interaction between human and machine. The
+emergence of brain-computer interface allows mind-to-movement systems. The
+story of the Pied Piper inspired us to devise some new heuristics for
+interfacing human motor system using brain waves by combining head helmet and
+LumbarMotionMonitor For the simulation we use java GridGain Brain responses of
+classified subjects during training indicates that Probe can be the best
+stimulus to rely on in distinguishing between knowledgeable and not
+knowledgeable",http://arxiv.org/abs/1211.6411v1,1,1
+2,jsdp: a Java Stochastic DP Library,2022-09-20 20:20:20,"Stochastic Programming is a framework for modelling and solving problems of
+decision making under uncertainty. Stochastic Dynamic Programming is a branch
+of Stochastic Programming that takes a ""functional equation"" approach to the
+discovery of optimal policies. By leveraging constructs - lambda expressions,
+functional interfaces, collections and aggregate operators - implemented in
+Java to operationalise the MapReduce framework, jsdp provides a general purpose
+library for modelling and solving Stochastic Dynamic Programs.",http://arxiv.org/abs/2209.09979v3,1,1
+3,"An Intelligent Approach for Negotiating between chains in Supply Chain
+  Management Systems",2012-06-07 07:50:43,"Holding commercial negotiations and selecting the best supplier in supply
+chain management systems are among weaknesses of producers in production
+process. Therefore, applying intelligent systems may have an effective role in
+increased speed and improved quality in the selections .This paper introduces a
+system which tries to trade using multi-agents systems and holding negotiations
+between any agents. In this system, an intelligent agent is considered for each
+segment of chains which it tries to send order and receive the response with
+attendance in negotiation medium and communication with other agents .This
+paper introduces how to communicate between agents, characteristics of
+multi-agent and standard registration medium of each agent in the environment.
+JADE (Java Application Development Environment) was used for implementation and
+simulation of agents cooperation.",http://arxiv.org/abs/1206.1414v1,1,1
+4,"Ontology Temporal Evolution for Multi-Entity Bayesian Networks under
+  Exogenous and Endogenous Semantic Updating",2010-09-10 19:44:07,"It is a challenge for any Knowledge Base reasoning to manage ubiquitous
+uncertain ontology as well as uncertain updating times, while achieving
+acceptable service levels at minimum computational cost. This paper proposes an
+application-independent merging ontologies for any open interaction system. A
+solution that uses Multi-Entity Bayesan Networks with SWRL rules, and a Java
+program is presented to dynamically monitor Exogenous and Endogenous temporal
+evolution on updating merging ontologies on a probabilistic framework for the
+Semantic Web.",http://arxiv.org/abs/1009.2084v1,1,1
+5,Human-AI Co-Creation of Worked Examples for Programming Classes,2024-02-26 01:44:24,"Worked examples (solutions to typical programming problems presented as a
+source code in a certain language and are used to explain the topics from a
+programming class) are among the most popular types of learning content in
+programming classes. Most approaches and tools for presenting these examples to
+students are based on line-by-line explanations of the example code. However,
+instructors rarely have time to provide line-by-line explanations for a large
+number of examples typically used in a programming class. In this paper, we
+explore and assess a human-AI collaboration approach to authoring worked
+examples for Java programming. We introduce an authoring system for creating
+Java worked examples that generates a starting version of code explanations and
+presents it to the instructor to edit if necessary.We also present a study that
+assesses the quality of explanations created with this approach",http://arxiv.org/abs/2402.16235v2,1,1
+6,"Comparison between CPBPV, ESC/Java, CBMC, Blast, EUREKA and Why for
+  Bounded Program Verification",2008-08-11 12:55:19,"This report describes experimental results for a set of benchmarks on program
+verification. It compares the capabilities of CPBVP ""Constraint Programming
+framework for Bounded Program Verification"" [4] with the following frameworks:
+ESC/Java, CBMC, Blast, EUREKA and Why.",http://arxiv.org/abs/0808.1508v1,1,1
+7,"Universal Feature Selection Tool (UniFeat): An Open-Source Tool for
+  Dimensionality Reduction",2022-11-30 09:39:31,"The Universal Feature Selection Tool (UniFeat) is an open-source tool
+developed entirely in Java for performing feature selection processes in
+various research areas. It provides a set of well-known and advanced feature
+selection methods within its significant auxiliary tools. This allows users to
+compare the performance of feature selection methods. Moreover, due to the
+open-source nature of UniFeat, researchers can use and modify it in their
+research, which facilitates the rapid development of new feature selection
+algorithms.",http://arxiv.org/abs/2211.16846v1,1,1
+8,"BoolVar/PB v1.0, a java library for translating pseudo-Boolean
+  constraints into CNF formulae",2011-03-21 10:14:40,"BoolVar/PB is an open source java library dedicated to the translation of
+pseudo-Boolean constraints into CNF formulae. Input constraints can be
+categorized with tags. Several encoding schemes are implemented in a way that
+each input constraint can be translated using one or several encoders,
+according to the related tags. The library can be easily extended by adding new
+encoders and / or new output formats.",http://arxiv.org/abs/1103.3954v1,1,1
+9,Static Program Analysis Guided LLM Based Unit Test Generation,2025-03-07 13:09:37,"We describe a novel approach to automating unit test generation for Java
+methods using large language models (LLMs). Existing LLM-based approaches rely
+on sample usage(s) of the method to test (focal method) and/or provide the
+entire class of the focal method as input prompt and context. The former
+approach is often not viable due to the lack of sample usages, especially for
+newly written focal methods. The latter approach does not scale well enough;
+the bigger the complexity of the focal method and larger associated class, the
+harder it is to produce adequate test code (due to factors such as exceeding
+the prompt and context lengths of the underlying LLM). We show that augmenting
+prompts with \emph{concise} and \emph{precise} context information obtained by
+program analysis %of the focal method increases the effectiveness of generating
+unit test code through LLMs. We validate our approach on a large commercial
+Java project and a popular open-source Java project.",http://arxiv.org/abs/2503.05394v1,1,1
+10,Mouse Simulation Using Two Coloured Tapes,2012-04-05 17:00:47,"In this paper, we present a novel approach for Human Computer Interaction
+(HCI) where, we control cursor movement using a real-time camera. Current
+methods involve changing mouse parts such as adding more buttons or changing
+the position of the tracking ball. Instead, our method is to use a camera and
+computer vision technology, such as image segmentation and gesture recognition,
+to control mouse tasks (left and right clicking, double-clicking, and
+scrolling) and we show how it can perform everything as current mouse devices
+can. The software will be developed in JAVA language. Recognition and pose
+estimation in this system are user independent and robust as we will be using
+colour tapes on our finger to perform actions. The software can be used as an
+intuitive input interface to applications that require multi-dimensional
+control e.g. computer games etc.",http://arxiv.org/abs/1204.1277v1,1,1
+11,GeoGebra Tools with Proof Capabilities,2016-03-03 19:29:08,"We report about significant enhancements of the complex algebraic geometry
+theorem proving subsystem in GeoGebra for automated proofs in Euclidean
+geometry, concerning the extension of numerous GeoGebra tools with proof
+capabilities. As a result, a number of elementary theorems can be proven by
+using GeoGebra's intuitive user interface on various computer architectures
+including native Java and web based systems with JavaScript. We also provide a
+test suite for benchmarking our results with 200 test cases.",http://arxiv.org/abs/1603.01228v1,1,1
+12,"Grounded Discovery of Coordinate Term Relationships between Software
+  Entities",2015-05-01 20:40:00,"We present an approach for the detection of coordinate-term relationships
+between entities from the software domain, that refer to Java classes. Usually,
+relations are found by examining corpus statistics associated with text
+entities. In some technical domains, however, we have access to additional
+information about the real-world objects named by the entities, suggesting that
+coupling information about the ""grounded"" entities with corpus statistics might
+lead to improved methods for relation discovery. To this end, we develop a
+similarity measure for Java classes using distributional information about how
+they are used in software, which we combine with corpus statistics on the
+distribution of contexts in which the classes appear in text. Using our
+approach, cross-validation accuracy on this dataset can be improved
+dramatically, from around 60% to 88%. Human labeling results show that our
+classifier has an F1 score of 86% over the top 1000 predicted pairs.",http://arxiv.org/abs/1505.00277v1,1,1
+13,Release ZERO.0.1 of package RefereeToolbox,2010-03-12 21:25:10,"RefereeToolbox is a java package implementing combination operators for
+fusing evidences. It is downloadable from:
+http://refereefunction.fredericdambreville.com/releases RefereeToolbox is based
+on an interpretation of the fusion rules by means of Referee Functions. This
+approach implies a dissociation between the definition of the combination and
+its actual implementation, which is common to all referee-based combinations.
+As a result, RefereeToolbox is designed with the aim to be generic and
+evolutive.",http://arxiv.org/abs/1003.2641v1,1,1
+14,"Authoring Worked Examples for Java Programming with Human-AI
+  Collaboration",2023-12-04 18:32:55,"Worked examples (solutions to typical programming problems presented as a
+source code in a certain language and are used to explain the topics from a
+programming class) are among the most popular types of learning content in
+programming classes. Most approaches and tools for presenting these examples to
+students are based on line-by-line explanations of the example code. However,
+instructors rarely have time to provide line-by-line explanations for a large
+number of examples typically used in a programming class. In this paper, we
+explore and assess a human-AI collaboration approach to authoring worked
+examples for Java programming. We introduce an authoring system for creating
+Java worked examples that generates a starting version of code explanations and
+presents it to the instructor to edit if necessary. We also present a study
+that assesses the quality of explanations created with this approach.",http://arxiv.org/abs/2312.02105v1,1,1
+15,Testing Global Constraints,2018-07-11 07:45:46,"Every Constraint Programming (CP) solver exposes a library of constraints for
+solving combinatorial problems. In order to be useful, CP solvers need to be
+bug-free. Therefore the testing of the solver is crucial to make developers and
+users confident. We present a Java library allowing any JVM based solver to
+test that the implementations of the individual constraints are correct. The
+library can be used in a test suite executed in a continuous integration tool
+or it can also be used to discover minimalist instances violating some
+properties (arc-consistency, etc) in order to help the developer to identify
+the origin of the problem using standard debuggers.",http://arxiv.org/abs/1807.03975v1,1,1
+16,SATEN: An Object-Oriented Web-Based Revision and Extraction Engine,2000-03-14 04:58:18,"SATEN is an object-oriented web-based extraction and belief revision engine.
+It runs on any computer via a Java 1.1 enabled browser such as Netscape 4.
+SATEN performs belief revision based on the AGM approach. The extraction and
+belief revision reasoning engines operate on a user specified ranking of
+information. One of the features of SATEN is that it can be used to integrate
+mutually inconsistent commensuate rankings into a consistent ranking.",http://arxiv.org/abs/cs/0003059v1,1,1
+17,"Using Java Geometry Expert as Guide in the Preparations for Math
+  Contests",2024-01-22 12:52:07,"We give an insight into Java Geometry Expert (JGEX) in use in a school
+context, focusing on the Austrian school system. JGEX can offer great support
+in some classroom situations, especially for solving mathematical competition
+tasks. Also, we discuss some limitations of the program.",http://arxiv.org/abs/2401.13704v1,1,1
+18,RuleKit: A Comprehensive Suite for Rule-Based Learning,2019-08-02 19:53:46,"Rule-based models are often used for data analysis as they combine
+interpretability with predictive power. We present RuleKit, a versatile tool
+for rule learning. Based on a sequential covering induction algorithm, it is
+suitable for classification, regression, and survival problems. The presence of
+a user-guided induction facilitates verifying hypotheses concerning data
+dependencies which are expected or of interest. The powerful and flexible
+experimental environment allows straightforward investigation of different
+induction schemes. The analysis can be performed in batch mode, through
+RapidMiner plug-in, or R package. A documented Java API is also provided for
+convenience. The software is publicly available at GitHub under GNU AGPL-3.0
+license.",http://arxiv.org/abs/1908.01031v1,1,1
+19,"Combining Relational Algebra, SQL, Constraint Modelling, and Local
+  Search",2006-01-11 14:29:44,"The goal of this paper is to provide a strong integration between constraint
+modelling and relational DBMSs. To this end we propose extensions of standard
+query languages such as relational algebra and SQL, by adding constraint
+modelling capabilities to them. In particular, we propose non-deterministic
+extensions of both languages, which are specially suited for combinatorial
+problems. Non-determinism is introduced by means of a guessing operator, which
+declares a set of relations to have an arbitrary extension. This new operator
+results in languages with higher expressive power, able to express all problems
+in the complexity class NP. Some syntactical restrictions which make data
+complexity polynomial are shown. The effectiveness of both extensions is
+demonstrated by means of several examples. The current implementation, written
+in Java using local search techniques, is described. To appear in Theory and
+Practice of Logic Programming (TPLP)",http://arxiv.org/abs/cs/0601043v1,1,1
+20,"The Potential of LLMs in Automating Software Testing: From Generation to
+  Reporting",2024-12-31 02:06:46,"Having a high quality software is essential in software engineering, which
+requires robust validation and verification processes during testing
+activities. Manual testing, while effective, can be time consuming and costly,
+leading to an increased demand for automated methods. Recent advancements in
+Large Language Models (LLMs) have significantly influenced software
+engineering, particularly in areas like requirements analysis, test automation,
+and debugging. This paper explores an agent-oriented approach to automated
+software testing, using LLMs to reduce human intervention and enhance testing
+efficiency. The proposed framework integrates LLMs to generate unit tests,
+visualize call graphs, and automate test execution and reporting. Evaluations
+across multiple applications in Python and Java demonstrate the system's high
+test coverage and efficient operation. This research underscores the potential
+of LLM-powered agents to streamline software testing workflows while addressing
+challenges in scalability and accuracy.",http://arxiv.org/abs/2501.00217v1,1,1
+21,"The Behavior of Large Language Models When Prompted to Generate Code
+  Explanations",2023-11-02 17:14:38,"This paper systematically investigates the generation of code explanations by
+Large Language Models (LLMs) for code examples commonly encountered in
+introductory programming courses. Our findings reveal significant variations in
+the nature of code explanations produced by LLMs, influenced by factors such as
+the wording of the prompt, the specific code examples under consideration, the
+programming language involved, the temperature parameter, and the version of
+the LLM. However, a consistent pattern emerges for Java and Python, where
+explanations exhibit a Flesch-Kincaid readability level of approximately 7-8
+grade and a consistent lexical density, indicating the proportion of meaningful
+words relative to the total explanation size. Additionally, the generated
+explanations consistently achieve high scores for correctness, but lower scores
+on three other metrics: completeness, conciseness, and specificity.",http://arxiv.org/abs/2311.01490v2,1,1
+22,Opti Code Pro: A Heuristic Search-based Approach to Code Refactoring,2023-05-12 16:39:38,"This paper presents an approach that evaluates best-first search methods to
+code refactoring. The motivation for code refactoring could be to improve the
+design, structure, or implementation of an existing program without changing
+its functionality. To solve a very specific problem of coupling and cohesion,
+we propose using heuristic search-based techniques on an approximation of the
+full code refactoring problem, to guide the refactoring process toward
+solutions that have high cohesion and low coupling. We evaluated our approach
+by providing demonstrative examples of the effectiveness of this approach on
+random state problems and created a tool to implement the algorithm on Java
+projects.",http://arxiv.org/abs/2305.07594v1,1,1
+23,"ADAPQUEST: A Software for Web-Based Adaptive Questionnaires based on
+  Bayesian Networks",2021-12-29 09:50:44,"We introduce ADAPQUEST, a software tool written in Java for the development
+of adaptive questionnaires based on Bayesian networks. Adaptiveness is intended
+here as the dynamical choice of the question sequence on the basis of an
+evolving model of the skill level of the test taker. Bayesian networks offer a
+flexible and highly interpretable framework to describe such testing process,
+especially when coping with multiple skills. ADAPQUEST embeds dedicated
+elicitation strategies to simplify the elicitation of the questionnaire
+parameters. An application of this tool for the diagnosis of mental disorders
+is also discussed together with some implementation details.",http://arxiv.org/abs/2112.14476v1,1,1
+24,"Knowledge Representation on the Web revisited: Tools for Prototype Based
+  Ontologies",2016-07-16 23:42:44,"In recent years RDF and OWL have become the most common knowledge
+representation languages in use on the Web, propelled by the recommendation of
+the W3C. In this paper we present a practical implementation of a different
+kind of knowledge representation based on Prototypes. In detail, we present a
+concrete syntax easily and effectively parsable by applications. We also
+present extensible implementations of a prototype knowledge base, specifically
+designed for storage of Prototypes. These implementations are written in Java
+and can be extended by using the implementation as a library. Alternatively,
+the software can be deployed as such. Further, results of benchmarks for both
+local and web deployment are presented. This paper augments a research paper,
+in which we describe the more theoretical aspects of our Prototype system.",http://arxiv.org/abs/1607.04809v1,1,1
+25,Building a Truly Distributed Constraint Solver with JADE,2015-09-03 11:41:45,"Real life problems such as scheduling meeting between people at different
+locations can be modelled as distributed Constraint Satisfaction Problems
+(CSPs). Suitable and satisfactory solutions can then be found using constraint
+satisfaction algorithms which can be exhaustive (backtracking) or otherwise
+(local search). However, most research in this area tested their algorithms by
+simulation on a single PC with a single program entry point. The main
+contribution of our work is the design and implementation of a truly
+distributed constraint solver based on a local search algorithm using Java
+Agent DEvelopment framework (JADE) to enable communication between agents on
+different machines. Particularly, we discuss design and implementation issues
+related to truly distributed constraint solver which might not be critical when
+simulated on a single machine. Evaluation results indicate that our truly
+distributed constraint solver works well within the observed limitations when
+tested with various distributed CSPs. Our application can also incorporate any
+constraint solving algorithm with little modifications.",http://arxiv.org/abs/1509.01040v1,1,1
+26,NLML--a Markup Language to Describe the Unlimited English Grammar,2004-04-07 06:54:45,"In this paper we present NLML (Natural Language Markup Language), a markup
+language to describe the syntactic and semantic structure of any grammatically
+correct English expression. At first the related works are analyzed to
+demonstrate the necessity of the NLML: simple form, easy management and direct
+storage. Then the description of the English grammar with NLML is introduced in
+details in three levels: sentences (with different complexities, voices, moods,
+and tenses), clause (relative clause and noun clause) and phrase (noun phrase,
+verb phrase, prepositional phrase, adjective phrase, adverb phrase and
+predicate phrase). At last the application fields of the NLML in NLP are shown
+with two typical examples: NLOJM (Natural Language Object Modal in Java) and
+NLDB (Natural Language Database).",http://arxiv.org/abs/cs/0404018v1,1,1
+27,Mining Software Components from Object-Oriented APIs,2016-06-02 07:08:01,"Object-oriented Application Programing Interfaces (APIs) support software
+reuse by providing pre-implemented functionalities. Due to the huge number of
+included classes, reusing and understanding large APIs is a complex task.
+Otherwise, software components are admitted to be more reusable and
+understandable entities than object-oriented ones. Thus, in this paper, we
+propose an approach for reengineering object-oriented APIs into component-based
+ones. We mine components as a group of classes based on the frequency they are
+used together and their ability to form a quality-centric component. To
+validate our approach, we experimented on 100 Java applications that used
+Android APIs.",http://arxiv.org/abs/1606.00561v1,1,1
+28,Automated Validation of COBOL to Java Transformation,2025-04-14 06:13:32,"Recent advances in Large Language Model (LLM) based Generative AI techniques
+have made it feasible to translate enterpriselevel code from legacy languages
+such as COBOL to modern languages such as Java or Python. While the results of
+LLM-based automatic transformation are encouraging, the resulting code cannot
+be trusted to correctly translate the original code. We propose a framework and
+a tool to help validate the equivalence of COBOL and translated Java. The
+results can also help repair the code if there are some issues and provide
+feedback to the AI model to improve. We have developed a
+symbolic-execution-based test generation to automatically generate unit tests
+for the source COBOL programs which also mocks the external resource calls. We
+generate equivalent JUnit test cases with equivalent mocking as COBOL and run
+them to check semantic equivalence between original and translated programs.",http://arxiv.org/abs/2506.10999v1,1,1
+29,"LeoTask: a fast, flexible and reliable framework for computational
+  research",2015-01-07 22:33:40,"LeoTask is a Java library for computation-intensive and time-consuming
+research tasks. It automatically executes tasks in parallel on multiple CPU
+cores on a computing facility. It uses a configuration file to enable automatic
+exploration of parameter space and flexible aggregation of results, and
+therefore allows researchers to focus on programming the key logic of a
+computing task. It also supports reliable recovery from interruptions, dynamic
+and cloneable networks, and integration with the plotting software Gnuplot.",http://arxiv.org/abs/1501.01678v1,1,1
+30,"Extending Object-Oriented Languages by Declarative Specifications of
+  Complex Objects using Answer-Set Programming",2011-12-05 13:28:53,"Many applications require complexly structured data objects. Developing new
+or adapting existing algorithmic solutions for creating such objects can be a
+non-trivial and costly task if the considered objects are subject to different
+application-specific constraints. Often, however, it is comparatively easy to
+declaratively describe the required objects. In this paper, we propose to use
+answer-set programming (ASP)---a well-established declarative programming
+paradigm from the area of artificial intelligence---for instantiating objects
+in standard object-oriented programming languages. In particular, we extend
+Java with declarative specifications from which the required objects can be
+automatically generated using available ASP solver technology.",http://arxiv.org/abs/1112.0922v2,1,1
+31,"ACE, a generic constraint solver",2023-01-06 12:15:18,"Constraint Programming (CP) is a useful technology for modeling and solving
+combinatorial constrained problems. On the one hand, on can use a library like
+PyCSP3 for easily modeling problems arising in various application fields
+(e.g., scheduling, planning, data-mining, cryptography, bio-informatics,
+organic chemistry, etc.). Problem instances can then be directly generated from
+specific models and data. On the other hand, for solving instances (notably,
+represented in XCSP3 format), one can use a constraint solver like ACE, which
+is presented in this paper. ACE is an open-source constraint solver, developed
+in Java, which focuses on integer variables (including 0/1-Boolean variables),
+state-of-the-art table constraints, popular global constraints, search
+heuristics and (mono-criterion) optimization.",http://arxiv.org/abs/2302.05405v2,1,1
+32,"Extending Modular Semantics for Bipolar Weighted Argumentation
+  (Technical Report)",2018-09-19 11:54:46,"Weighted bipolar argumentation frameworks offer a tool for decision support
+and social media analysis. Arguments are evaluated by an iterative procedure
+that takes initial weights and attack and support relations into account. Until
+recently, convergence of these iterative procedures was not very well
+understood in cyclic graphs. Mossakowski and Neuhaus recently introduced a
+unification of different approaches and proved first convergence and divergence
+results. We build up on this work, simplify and generalize convergence results
+and complement them with runtime guarantees. As it turns out, there is a
+tradeoff between semantics' convergence guarantees and their ability to move
+strength values away from the initial weights. We demonstrate that divergence
+problems can be avoided without this tradeoff by continuizing semantics.
+Semantically, we extend the framework with a Duality property that assures a
+symmetric impact of attack and support relations. We also present a Java
+implementation of modular semantics and explain the practical usefulness of the
+theoretical ideas.",http://arxiv.org/abs/1809.07133v2,1,1
+33,"""Model and Run"" Constraint Networks with a MILP Engine",2016-11-27 20:43:27,"Constraint Programming (CP) users need significant expertise in order to
+model their problems appropriately, notably to select propagators and search
+strategies. This puts the brakes on a broader uptake of CP. In this paper, we
+introduce MICE, a complete Java CP modeler that can use any Mixed Integer
+Linear Programming (MILP) solver as a solution technique. Our aim is to provide
+an alternative tool for democratizing the ""CP-style"" modeling thanks to its
+simplicity of use, with reasonable solving capabilities. Our contributions
+include new decompositions of (reified) constraints and constraints on
+numerical variables.",http://arxiv.org/abs/1611.08908v1,1,1
+34,"The Response of Farmer Welfares Amidst Food Prices Shock and Inflation
+  in the Province of East Java",2025-01-15 05:57:46,"Price uncertainty in food commodities can create uncertainty for farmers and
+potentially negatively impact the level of farmer household well-being. On the
+other hand, the agriculture sector in the province of East Java has greatly
+contributed to East Java's economy. This paper analyses the response of farmer
+welfare through farmer exchange values amidst fluctuation shock of food needed
+prices and inflation level in the east java province. The research method of
+this paper employs the impulse response function of the Bayesian Vector
+Autoregressive (BVAR) model by using time series secondary data from May 2017
+until December 2023. This paper finds that the shock that happens to aggregate
+food prices can increase farmer exchange values even though the shock to the
+inflation level has reduced farmer exchange values and increased aggregate food
+prices.",http://arxiv.org/abs/2501.08601v1,2,1
+35,A Language Model of Java Methods with Train/Test Deduplication,2023-05-15 00:22:02,"This tool demonstration presents a research toolkit for a language model of
+Java source code. The target audience includes researchers studying problems at
+the granularity level of subroutines, statements, or variables in Java. In
+contrast to many existing language models, we prioritize features for
+researchers including an open and easily-searchable training set, a held out
+test set with different levels of deduplication from the training set,
+infrastructure for deduplicating new examples, and an implementation platform
+suitable for execution on equipment accessible to a relatively modest budget.
+Our model is a GPT2-like architecture with 350m parameters. Our training set
+includes 52m Java methods (9b tokens) and 13m StackOverflow threads (10.5b
+tokens). To improve accessibility of research to more members of the community,
+we limit local resource requirements to GPUs with 16GB video memory. We provide
+a test set of held out Java methods that include descriptive comments,
+including the entire Java projects for those methods. We also provide
+deduplication tools using precomputed hash tables at various similarity
+thresholds to help researchers ensure that their own test examples are not in
+the training set. We make all our tools and data open source and available via
+Huggingface and Github.",http://arxiv.org/abs/2305.08286v1,1,1
+36,"From Code to Play: Benchmarking Program Search for Games Using Large
+  Language Models",2024-12-05 10:50:58,"Large language models (LLMs) have shown impressive capabilities in generating
+program code, opening exciting opportunities for applying program synthesis to
+games. In this work, we explore the potential of LLMs to directly synthesize
+usable code for a wide range of gaming applications, focusing on two
+programming languages, Python and Java. We use an evolutionary hill-climbing
+algorithm, where the mutations and seeds of the initial programs are controlled
+by LLMs. For Python, the framework covers various game-related tasks, including
+five miniature versions of Atari games, ten levels of Baba is You, an
+environment inspired by Asteroids, and a maze generation task. For Java, the
+framework contains 12 games from the TAG tabletop games framework. Across 29
+tasks, we evaluated 12 language models for Python and 8 for Java. Our findings
+suggest that the performance of LLMs depends more on the task than on model
+size. While larger models generate more executable programs, these do not
+always result in higher-quality solutions but are much more expensive. No model
+has a clear advantage, although on any specific task, one model may be better.
+Trying many models on a problem and using the best results across them is more
+reliable than using just one.",http://arxiv.org/abs/2412.04057v2,1,1
+37,"Intelligent search strategies based on adaptive Constraint Handling
+  Rules",2004-11-08 08:32:40,"The most advanced implementation of adaptive constraint processing with
+Constraint Handling Rules (CHR) allows the application of intelligent search
+strategies to solve Constraint Satisfaction Problems (CSP). This presentation
+compares an improved version of conflict-directed backjumping and two variants
+of dynamic backtracking with respect to chronological backtracking on some of
+the AIM instances which are a benchmark set of random 3-SAT problems. A CHR
+implementation of a Boolean constraint solver combined with these different
+search strategies in Java is thus being compared with a CHR implementation of
+the same Boolean constraint solver combined with chronological backtracking in
+SICStus Prolog. This comparison shows that the addition of ``intelligence'' to
+the search process may reduce the number of search steps dramatically.
+Furthermore, the runtime of their Java implementations is in most cases faster
+than the implementations of chronological backtracking. More specifically,
+conflict-directed backjumping is even faster than the SICStus Prolog
+implementation of chronological backtracking, although our Java implementation
+of CHR lacks the optimisations made in the SICStus Prolog system. To appear in
+Theory and Practice of Logic Programming (TPLP).",http://arxiv.org/abs/cs/0411016v2,1,1
+38,"XCSP3-core: A Format for Representing Constraint
+  Satisfaction/Optimization Problems",2020-09-01 15:24:49,"In this document, we introduce XCSP3-core, a subset of XCSP3 that allows us
+to represent constraint satisfaction/optimization problems. The interest of
+XCSP3-core is multiple: (i) focusing on the most popular frameworks (CSP and
+COP) and constraints, (ii) facilitating the parsing process by means of
+dedicated XCSP3-core parsers written in Java and C++ (using callback
+functions), (iii) and defining a core format for comparisons (competitions) of
+constraint solvers.",http://arxiv.org/abs/2009.00514v4,1,1
+39,Marvin: Semantic annotation using multiple knowledge sources,2016-02-01 13:27:34,"People are producing more written material then anytime in the history. The
+increase is so high that professionals from the various fields are no more able
+to cope with this amount of publications. Text mining tools can offer tools to
+help them and one of the tools that can aid information retrieval and
+information extraction is semantic text annotation. In this report we present
+Marvin, a text annotator written in Java, which can be used as a command line
+tool and as a Java library. Marvin is able to annotate text using multiple
+sources, including WordNet, MetaMap, DBPedia and thesauri represented as SKOS.",http://arxiv.org/abs/1602.00515v2,1,1
+40,STraceBERT: Source Code Retrieval using Semantic Application Traces,2023-12-07 22:19:50,"Software reverse engineering is an essential task in software engineering and
+security, but it can be a challenging process, especially for adversarial
+artifacts. To address this challenge, we present STraceBERT, a novel approach
+that utilizes a Java dynamic analysis tool to record calls to core Java
+libraries, and pretrain a BERT-style model on the recorded application traces
+for effective method source code retrieval from a candidate set. Our
+experiments demonstrate the effectiveness of STraceBERT in retrieving the
+source code compared to existing approaches. Our proposed approach offers a
+promising solution to the problem of code retrieval in software reverse
+engineering and opens up new avenues for further research in this area.",http://arxiv.org/abs/2312.04731v1,1,1
+41,"A comprehensible analysis of the efficacy of Ensemble Models for Bug
+  Prediction",2023-10-18 17:43:54,"The correctness of software systems is vital for their effective operation.
+It makes discovering and fixing software bugs an important development task.
+The increasing use of Artificial Intelligence (AI) techniques in Software
+Engineering led to the development of a number of techniques that can assist
+software developers in identifying potential bugs in code. In this paper, we
+present a comprehensible comparison and analysis of the efficacy of two
+AI-based approaches, namely single AI models and ensemble AI models, for
+predicting the probability of a Java class being buggy. We used two open-source
+Apache Commons Project's Java components for training and evaluating the
+models. Our experimental findings indicate that the ensemble of AI models can
+outperform the results of applying individual AI models. We also offer insight
+into the factors that contribute to the enhanced performance of the ensemble AI
+model. The presented results demonstrate the potential of using ensemble AI
+models to enhance bug prediction results, which could ultimately result in more
+reliable software systems.",http://arxiv.org/abs/2310.12133v1,1,1
+42,Code Reborn AI-Driven Legacy Systems Modernization from COBOL to Java,2025-04-15 16:07:54,"This study investigates AI-driven modernization of legacy COBOL code into
+Java, addressing a critical challenge in aging software systems. Leveraging the
+Legacy COBOL 2024 Corpus -- 50,000 COBOL files from public and enterprise
+sources -- Java parses the code, AI suggests upgrades, and React visualizes
+gains. Achieving 93% accuracy, complexity drops 35% (from 18 to 11.7) and
+coupling 33% (from 8 to 5.4), surpassing manual efforts (75%) and rule-based
+tools (82%). The approach offers a scalable path to rejuvenate COBOL systems,
+vital for industries like banking and insurance.",http://arxiv.org/abs/2504.11335v1,1,1
+43,Aplib: Tactical Programming of Intelligent Agents,2019-11-12 07:39:07,"This paper presents aplib, a Java library for programming intelligent agents,
+featuring BDI and multi agency, but adding on top of it a novel layer of
+tactical programming inspired by the domain of theorem proving. Aplib is also
+implemented in such a way to provide the fluency of a Domain Specific Language
+(DSL). Compared to dedicated BDI agent programming languages such as JASON,
+2APL, or GOAL,aplib's embedded DSL approach does mean that \aplib\ programmers
+will still be limited by Java syntax, but on other hand they get all the
+advantages that Java programmers get: rich language features (object
+orientation, static type checking, $\lambda$-expression, libraries, etc), a
+whole array of development tools, integration with other technologies, large
+community, etc.",http://arxiv.org/abs/1911.04710v1,1,1
+44,"RAILS: Retrieval-Augmented Intelligence for Learning Software
+  Development",2025-06-28 03:30:04,"Large Language Models (LLMs) like GPT-3.5-Turbo are increasingly used to
+assist software development, yet they often produce incomplete code or
+incorrect imports, especially when lacking access to external or
+project-specific documentation. We introduce RAILS (Retrieval-Augmented
+Intelligence for Learning Software Development), a framework that augments LLM
+prompts with semantically retrieved context from curated Java resources using
+FAISS and OpenAI embeddings. RAILS incorporates an iterative validation loop
+guided by compiler feedback to refine suggestions. We evaluated RAILS on 78
+real-world Java import error cases spanning standard libraries, GUI APIs,
+external tools, and custom utilities. Despite using the same LLM, RAILS
+outperforms baseline prompting by preserving intent, avoiding hallucinations,
+and surfacing correct imports even when libraries are unavailable locally.
+Future work will integrate symbolic filtering via PostgreSQL and extend support
+to other languages and IDEs.",http://arxiv.org/abs/2506.22742v1,1,1
+45,Examination of Code generated by Large Language Models,2024-08-29 15:12:16,"Large language models (LLMs), such as ChatGPT and Copilot, are transforming
+software development by automating code generation and, arguably, enable rapid
+prototyping, support education, and boost productivity. Therefore, correctness
+and quality of the generated code should be on par with manually written code.
+To assess the current state of LLMs in generating correct code of high quality,
+we conducted controlled experiments with ChatGPT and Copilot: we let the LLMs
+generate simple algorithms in Java and Python along with the corresponding unit
+tests and assessed the correctness and the quality (coverage) of the generated
+(test) codes. We observed significant differences between the LLMs, between the
+languages, between algorithm and test codes, and over time. The present paper
+reports these results together with the experimental methods allowing repeated
+and comparable assessments for more algorithms, languages, and LLMs over time.",http://arxiv.org/abs/2408.16601v1,1,1
+46,"A Tutorial for Weighted Bipolar Argumentation with Continuous Dynamical
+  Systems and the Java Library Attractor",2018-11-30 13:31:04,"Weighted bipolar argumentation frameworks allow modeling decision problems
+and online discussions by defining arguments and their relationships. The
+strength of arguments can be computed based on an initial weight and the
+strength of attacking and supporting arguments. While previous approaches
+assumed an acyclic argumentation graph and successively set arguments' strength
+based on the strength of their parents, recently continuous dynamical systems
+have been proposed as an alternative. Continuous models update arguments'
+strength simultaneously and continuously. While there are currently no
+analytical guarantees for convergence in general graphs, experiments show that
+continuous models can converge quickly in large cyclic graphs with thousands of
+arguments. Here, we focus on the high-level ideas of this approach and explain
+key results and applications. We also introduce Attractor, a Java library that
+can be used to solve weighted bipolar argumentation problems. Attractor
+contains implementations of several discrete and continuous models and
+numerical algorithms to compute solutions. It also provides base classes that
+can be used to implement, to evaluate and to compare continuous models easily.",http://arxiv.org/abs/1811.12787v1,1,1
+47,"Strategic ESG-Driven Human Resource Practices: Transforming Employee
+  Management for Sustainable Organizational Growth",2025-05-13 03:31:49,"Purpose: This research explores the impact of Environmental, Social, and
+Governance (ESG) practices on employee performance and well-being in private
+higher education institutions in Bandung, West Java. It seeks to provide
+insights into how effective ESG integration can enhance organizational
+performance and employee satisfaction. Methodology: A quantitative approach
+employing Partial Least Squares Structural Equation Modeling (PLS-SEM) analyzed
+the relationships among constructs: environmental practices, social practices,
+governance practices, and the dependent variable, employee performance and
+well-being. Data were collected from 270 respondents through stratified random
+sampling across various administrative roles in 138 private higher education
+institutions. Findings: The results showed that environmental practices
+positively impact employee performance and well-being, with social practices
+also contributing. Governance practices mediate and amplify these effects.
+These findings emphasize the importance of integrating sustainable practices
+into organizational strategies to improve employee outcomes and overall
+institutional performance. Originality: This study explores the impact of ESG
+practices on employee performance in private higher education institutions,
+focusing on sustainability to enhance engagement and productivity. Unlike
+previous research, which focused primarily on corporate sectors or public
+universities, it emphasizes the unique challenges of private institutions,
+particularly in Bandung, offering new insights into governance practices as
+mediators.",http://arxiv.org/abs/2505.08201v1,2,1
+48,"A Comparison of Public Causal Search Packages on Linear, Gaussian Data
+  with No Latent Variables",2017-09-13 10:41:19,"We compare Tetrad (Java) algorithms to the other public software packages BNT
+(Bayes Net Toolbox, Matlab), pcalg (R), bnlearn (R) on the \vanilla"" task of
+recovering DAG structure to the extent possible from data generated recursively
+from linear, Gaussian structure equation models (SEMs) with no latent
+variables, for random graphs, with no additional knowledge of variable order or
+adjacency structure, and without additional specification of intervention
+information. Each one of the above packages offers at least one implementation
+suitable to this purpose. We compare them on adjacency and orientation accuracy
+as well as time performance, for fixed datasets. We vary the number of
+variables, the number of samples, and the density of graph, for a total of 27
+combinations, averaging all statistics over 10 runs, for a total of 270
+datasets. All runs are carried out on the same machine and on their native
+platforms. An interactive visualization tool is provided for the reader who
+wishes to know more than can be documented explicitly in this report.",http://arxiv.org/abs/1709.04240v2,1,1
+49,"Uncertainty in Ontologies: Dempster-Shafer Theory for Data Fusion
+  Applications",2011-06-20 12:05:20,"Nowadays ontologies present a growing interest in Data Fusion applications.
+As a matter of fact, the ontologies are seen as a semantic tool for describing
+and reasoning about sensor data, objects, relations and general domain
+theories. In addition, uncertainty is perhaps one of the most important
+characteristics of the data and information handled by Data Fusion. However,
+the fundamental nature of ontologies implies that ontologies describe only
+asserted and veracious facts of the world. Different probabilistic, fuzzy and
+evidential approaches already exist to fill this gap; this paper recaps the
+most popular tools. However none of the tools meets exactly our purposes.
+Therefore, we constructed a Dempster-Shafer ontology that can be imported into
+any specific domain ontology and that enables us to instantiate it in an
+uncertain manner. We also developed a Java application that enables reasoning
+about these uncertain ontological instances.",http://arxiv.org/abs/1106.3876v1,1,1
+50,"Econometric model of children participation in family dairy farming in
+  the center of dairy farming, West Java Province, Indonesia",2021-02-05 14:16:16,"The involvement of children in the family dairy farming is pivotal point to
+reduce the cost of production input, especially in smallholder dairy farming.
+The purposes of the study are to analysis the factors that influence children's
+participation in working in the family dairy farm. The study was held December
+2020 in the development center of dairy farming in Pangalengan subdistrict,
+West Java Province, Indonesia. The econometric method used in the study was the
+logit regression model. The results of the study determine that the there were
+number of respondents who participates in family farms was 52.59% of total
+respondents, and the rest was no participation in the family farms. There are 3
+variables in the model that are very influential on children's participation in
+the family dairy farming, such as X1 (number of dairy farm land ownership), X2
+(number of family members), and X6 (the amount of work spent on the family's
+dairy farm). Key words: Participation, children, family, dairy farming, logit
+model",http://arxiv.org/abs/2102.03187v1,2,1
+51,Adaptive Task Assignment in Online Learning Environments,2016-06-23 09:09:49,"With the increasing popularity of online learning, intelligent tutoring
+systems are regaining increased attention. In this paper, we introduce adaptive
+algorithms for personalized assignment of learning tasks to student so that to
+improve his performance in online learning environments. As main contribution
+of this paper, we propose a a novel Skill-Based Task Selector (SBTS) algorithm
+which is able to approximate a student's skill level based on his performance
+and consequently suggest adequate assignments. The SBTS is inspired by the
+class of multi-armed bandit algorithms. However, in contrast to standard
+multi-armed bandit approaches, the SBTS aims at acquiring two criteria related
+to student learning, namely: which topics should the student work on, and what
+level of difficulty should the task be. The SBTS centers on innovative reward
+and punishment schemes in a task and skill matrix based on the student
+behaviour.
+  To verify the algorithm, the complex student behaviour is modelled using a
+neighbour node selection approach based on empirical estimations of a students
+learning curve. The algorithm is evaluated with a practical scenario from a
+basic java programming course. The SBTS is able to quickly and accurately adapt
+to the composite student competency --- even with a multitude of student
+models.",http://arxiv.org/abs/1606.07233v1,1,1
+52,"Implementing a Wall-In Building Placement in StarCraft with Declarative
+  Programming",2013-06-19 09:08:48,"In real-time strategy games like StarCraft, skilled players often block the
+entrance to their base with buildings to prevent the opponent's units from
+getting inside. This technique, called ""walling-in"", is a vital part of
+player's skill set, allowing him to survive early aggression. However, current
+artificial players (bots) do not possess this skill, due to numerous
+inconveniences surfacing during its implementation in imperative languages like
+C++ or Java. In this text, written as a guide for bot programmers, we address
+the problem of finding an appropriate building placement that would block the
+entrance to player's base, and present a ready to use declarative solution
+employing the paradigm of answer set programming (ASP). We also encourage the
+readers to experiment with different declarative approaches to this problem.",http://arxiv.org/abs/1306.4460v1,1,1
+53,Quality Evaluation of COBOL to Java Code Transformation,2025-07-31 09:06:20,"We present an automated evaluation system for assessing COBOL-to-Java code
+translation within IBM's watsonx Code Assistant for Z (WCA4Z). The system
+addresses key challenges in evaluating LLM-based translators, including model
+opacity and the complexity of translation quality assessment. Our approach
+combines analytic checkers with LLM-as-a-judge (LaaJ) techniques to deliver
+scalable, multi-faceted evaluations. The system supports continuous integration
+workflows, enables large-scale benchmarking, and reduces reliance on manual
+review. We describe the system architecture, evaluation strategies, and
+reporting mechanisms that provide actionable insights for developers and
+project managers, facilitating the evolution of high-quality, modernized
+codebases.",http://arxiv.org/abs/2507.23356v1,1,1
+54,"Skeleton-Guided-Translation: A Benchmarking Framework for Code
+  Repository Translation with Fine-Grained Quality Evaluation",2025-01-27 13:44:51,"The advancement of large language models has intensified the need to
+modernize enterprise applications and migrate legacy systems to secure,
+versatile languages. However, existing code translation benchmarks primarily
+focus on individual functions, overlooking the complexities involved in
+translating entire repositories, such as maintaining inter-module coherence and
+managing dependencies. While some recent repository-level translation
+benchmarks attempt to address these challenges, they still face limitations,
+including poor maintainability and overly coarse evaluation granularity, which
+make them less developer-friendly. We introduce Skeleton-Guided-Translation, a
+framework for repository-level Java to C# code translation with fine-grained
+quality evaluation. It uses a two-step process: first translating the
+repository's structural ""skeletons"", then translating the full repository
+guided by these skeletons. Building on this, we present TRANSREPO-BENCH, a
+benchmark of high quality open-source Java repositories and their corresponding
+C# skeletons, including matching unit tests and build configurations. Our unit
+tests are fixed and can be applied across multiple or incremental translations
+without manual adjustments, enhancing automation and scalability in
+evaluations. Additionally, we develop fine-grained evaluation metrics that
+assess translation quality at the individual test case level, addressing
+traditional binary metrics' inability to distinguish when build failures cause
+all tests to fail. Evaluations using TRANSREPO-BENCH highlight key challenges
+and advance more accurate repository level code translation.",http://arxiv.org/abs/2501.16050v1,1,1
+55,Automated Testing of COBOL to Java Transformation,2025-04-14 04:53:30,"Recent advances in Large Language Model (LLM) based Generative AI techniques
+have made it feasible to translate enterprise-level code from legacy languages
+such as COBOL to modern languages such as Java or Python. While the results of
+LLM-based automatic transformation are encouraging, the resulting code cannot
+be trusted to correctly translate the original code, making manual validation
+of translated Java code from COBOL a necessary but time-consuming and
+labor-intensive process. In this paper, we share our experience of developing a
+testing framework for IBM Watsonx Code Assistant for Z (WCA4Z) [5], an
+industrial tool designed for COBOL to Java translation. The framework automates
+the process of testing the functional equivalence of the translated Java code
+against the original COBOL programs in an industry context. Our framework uses
+symbolic execution to generate unit tests for COBOL, mocking external calls and
+transforming them into JUnit tests to validate semantic equivalence with
+translated Java. The results not only help identify and repair any detected
+discrepancies but also provide feedback to improve the AI model.",http://arxiv.org/abs/2504.10548v1,1,1
+56,Worst-Case Analysis is Maximum-A-Posteriori Estimation,2023-10-15 08:24:02,"The worst-case resource usage of a program can provide useful information for
+many software-engineering tasks, such as performance optimization and
+algorithmic-complexity-vulnerability discovery. This paper presents a generic,
+adaptive, and sound fuzzing framework, called DSE-SMC, for estimating
+worst-case resource usage. DSE-SMC is generic because it is black-box as long
+as the user provides an interface for retrieving resource-usage information on
+a given input; adaptive because it automatically balances between exploration
+and exploitation of candidate inputs; and sound because it is guaranteed to
+converge to the true resource-usage distribution of the analyzed program.
+  DSE-SMC is built upon a key observation: resource accumulation in a program
+is isomorphic to the soft-conditioning mechanism in Bayesian probabilistic
+programming; thus, worst-case resource analysis is isomorphic to the
+maximum-a-posteriori-estimation problem of Bayesian statistics. DSE-SMC
+incorporates sequential Monte Carlo (SMC) -- a generic framework for Bayesian
+inference -- with adaptive evolutionary fuzzing algorithms, in a sound manner,
+i.e., DSE-SMC asymptotically converges to the posterior distribution induced by
+resource-usage behavior of the analyzed program. Experimental evaluation on
+Java applications demonstrates that DSE-SMC is significantly more effective
+than existing black-box fuzzing methods for worst-case analysis.",http://arxiv.org/abs/2310.09774v1,1,1
+57,"EvoGPT: Enhancing Test Suite Robustness via LLM-Based Generation and
+  Genetic Optimization",2025-05-18 13:48:53,"Large Language Models (LLMs) have recently emerged as promising tools for
+automated unit test generation. We introduce a hybrid framework called EvoGPT
+that integrates LLM-based test generation with evolutionary search techniques
+to create diverse, fault-revealing unit tests. Unit tests are initially
+generated with diverse temperature sampling to maximize behavioral and test
+suite diversity, followed by a generation-repair loop and coverage-guided
+assertion enhancement. The resulting test suites are evolved using genetic
+algorithms, guided by a fitness function prioritizing mutation score over
+traditional coverage metrics. This design emphasizes the primary objective of
+unit testing-fault detection. Evaluated on multiple open-source Java projects,
+EvoGPT achieves an average improvement of 10% in both code coverage and
+mutation score compared to LLMs and traditional search-based software testing
+baselines. These results demonstrate that combining LLM-driven diversity,
+targeted repair, and evolutionary optimization produces more effective and
+resilient test suites.",http://arxiv.org/abs/2505.12424v1,1,1
+58,"Achieving Fairness in DareFightingICE Agents Evaluation Through a Delay
+  Mechanism",2023-12-26 11:38:36,"This paper proposes a delay mechanism to mitigate the impact of latency
+differences in the gRPC framework--a high-performance, open-source universal
+remote procedure call (RPC) framework--between different programming languages
+on the performance of agents in DareFightingICE, a fighting game research
+platform. The study finds that gRPC latency differences between Java and Python
+can significantly impact real-time decision-making. Without a delay mechanism,
+Java-based agents outperform Python-based ones due to lower gRPC latency on the
+Java platform. However, with the proposed delay mechanism, both Java-based and
+Python-based agents exhibit similar performance, leading to a fair comparison
+between agents developed using different programming languages. Thus, this work
+underscores the crucial importance of considering gRPC latency when developing
+and evaluating agents in DareFightingICE, and the insights gained could
+potentially extend to other gRPC-based applications.",http://arxiv.org/abs/2312.16010v1,1,1
+59,Probabilistic Graphical Models on Multi-Core CPUs using Java 8,2016-04-27 09:28:27,"In this paper, we discuss software design issues related to the development
+of parallel computational intelligence algorithms on multi-core CPUs, using the
+new Java 8 functional programming features. In particular, we focus on
+probabilistic graphical models (PGMs) and present the parallelisation of a
+collection of algorithms that deal with inference and learning of PGMs from
+data. Namely, maximum likelihood estimation, importance sampling, and greedy
+search for solving combinatorial optimisation problems. Through these concrete
+examples, we tackle the problem of defining efficient data structures for PGMs
+and parallel processing of same-size batches of data sets using Java 8
+features. We also provide straightforward techniques to code parallel
+algorithms that seamlessly exploit multi-core processors. The experimental
+analysis, carried out using our open source AMIDST (Analysis of MassIve Data
+STreams) Java toolbox, shows the merits of the proposed solutions.",http://arxiv.org/abs/1604.07990v1,1,1
+60,"I Can Find You in Seconds! Leveraging Large Language Models for Code
+  Authorship Attribution",2025-01-14 14:46:19,"Source code authorship attribution is important in software forensics,
+plagiarism detection, and protecting software patch integrity. Existing
+techniques often rely on supervised machine learning, which struggles with
+generalization across different programming languages and coding styles due to
+the need for large labeled datasets. Inspired by recent advances in natural
+language authorship analysis using large language models (LLMs), which have
+shown exceptional performance without task-specific tuning, this paper explores
+the use of LLMs for source code authorship attribution.
+  We present a comprehensive study demonstrating that state-of-the-art LLMs can
+successfully attribute source code authorship across different languages. LLMs
+can determine whether two code snippets are written by the same author with
+zero-shot prompting, achieving a Matthews Correlation Coefficient (MCC) of
+0.78, and can attribute code authorship from a small set of reference code
+snippets via few-shot learning, achieving MCC of 0.77. Additionally, LLMs show
+some adversarial robustness against misattribution attacks.
+  Despite these capabilities, we found that naive prompting of LLMs does not
+scale well with a large number of authors due to input token limitations. To
+address this, we propose a tournament-style approach for large-scale
+attribution. Evaluating this approach on datasets of C++ (500 authors, 26,355
+samples) and Java (686 authors, 55,267 samples) code from GitHub, we achieve
+classification accuracy of up to 65% for C++ and 68.7% for Java using only one
+reference per author. These results open new possibilities for applying LLMs to
+code authorship attribution in cybersecurity and software engineering.",http://arxiv.org/abs/2501.08165v1,1,1
+61,"Marking Code Without Breaking It: Code Watermarking for Detecting
+  LLM-Generated Code",2025-02-26 05:46:13,"Identifying LLM-generated code through watermarking poses a challenge in
+preserving functional correctness. Previous methods rely on the assumption that
+watermarking high-entropy tokens effectively maintains output quality. Our
+analysis reveals a fundamental limitation of this assumption: syntax-critical
+tokens such as keywords often exhibit the highest entropy, making existing
+approaches vulnerable to logic corruption. We present STONE, a syntax-aware
+watermarking method that embeds watermarks only in non-syntactic tokens and
+preserves code integrity. For its rigorous assessment, we also introduce STEM,
+a comprehensive framework that balances three critical dimensions: correctness,
+detectability, and imperceptibility. Across Python, C++, and Java, STONE
+preserves correctness, sustains strong detectability, and achieves balanced
+performance with minimal overhead. Our implementation is available at
+https://anonymous.4open.science/r/STONE-watermarking-AB4B/.",http://arxiv.org/abs/2502.18851v2,1,1
+62,"Fine-tuning LLaMA 2 interference: a comparative study of language
+  implementations for optimal efficiency",2025-01-30 19:36:33,"This paper presents a comparative study aimed at optimizing Llama2 inference,
+a critical aspect of machine learning and natural language processing (NLP). We
+evaluate various programming languages and frameworks, including TensorFlow,
+PyTorch, Python, Mojo, C++, and Java, analyzing their performance in terms of
+speed, memory consumption, and ease of implementation through extensive
+benchmarking. Strengths and limitations of each approach are highlighted, along
+with proposed optimization strategies for parallel processing and hardware
+utilization. Furthermore, we investigate the Mojo SDK, a novel framework
+designed for large language model (LLM) inference on Apple Silicon,
+benchmarking its performance against implementations in C, C++, Rust, Zig, Go,
+and Julia. Our experiments, conducted on an Apple M1 Max, demonstrate Mojo
+SDK's competitive performance, ease of use, and seamless Python compatibility,
+positioning it as a strong alternative for LLM inference on Apple Silicon. We
+also discuss broader implications for LLM deployment on resource-constrained
+hardware and identify potential directions for future research.",http://arxiv.org/abs/2502.01651v1,1,1
+63,"Software Vulnerability Prediction Knowledge Transferring Between
+  Programming Languages",2023-03-10 19:21:52,"Developing automated and smart software vulnerability detection models has
+been receiving great attention from both research and development communities.
+One of the biggest challenges in this area is the lack of code samples for all
+different programming languages. In this study, we address this issue by
+proposing a transfer learning technique to leverage available datasets and
+generate a model to detect common vulnerabilities in different programming
+languages. We use C source code samples to train a Convolutional Neural Network
+(CNN) model, then, we use Java source code samples to adopt and evaluate the
+learned model. We use code samples from two benchmark datasets: NIST Software
+Assurance Reference Dataset (SARD) and Draper VDISC dataset. The results show
+that proposed model detects vulnerabilities in both C and Java codes with
+average recall of 72\%. Additionally, we employ explainable AI to investigate
+how much each feature contributes to the knowledge transfer mechanisms between
+C and Java in the proposed model.",http://arxiv.org/abs/2303.06177v1,1,1
+64,"Py-Tetrad and RPy-Tetrad: A New Python Interface with R Support for
+  Tetrad Causal Search",2023-08-13 16:29:05,"We give novel Python and R interfaces for the (Java) Tetrad project for
+causal modeling, search, and estimation. The Tetrad project is a mainstay in
+the literature, having been under consistent development for over 30 years.
+Some of its algorithms are now classics, like PC and FCI; others are recent
+developments. It is increasingly the case, however, that researchers need to
+access the underlying Java code from Python or R. Existing methods for doing
+this are inadequate. We provide new, up-to-date methods using the JPype
+Python-Java interface and the Reticulate Python-R interface, directly solving
+these issues. With the addition of some simple tools and the provision of
+working examples for both Python and R, using JPype and Reticulate to interface
+Python and R with Tetrad is straightforward and intuitive.",http://arxiv.org/abs/2308.07346v1,1,1
+65,CREPO: An Open Repository to Benchmark Credal Network Algorithms,2021-05-10 07:31:59,"Credal networks are a popular class of imprecise probabilistic graphical
+models obtained as a Bayesian network generalization based on, so-called
+credal, sets of probability mass functions. A Java library called CREMA has
+been recently released to model, process and query credal networks. Despite the
+NP-hardness of the (exact) task, a number of algorithms is available to
+approximate credal network inferences. In this paper we present CREPO, an open
+repository of synthetic credal networks, provided together with the exact
+results of inference tasks on these models. A Python tool is also delivered to
+load these data and interact with CREMA, thus making extremely easy to evaluate
+and compare existing and novel inference algorithms. To demonstrate such
+benchmarking scheme, we propose an approximate heuristic to be used inside
+variable elimination schemes to keep a bound on the maximum number of vertices
+generated during the combination step. A CREPO-based validation against
+approximate procedures based on linearization and exact techniques performed in
+CREMA is finally discussed.",http://arxiv.org/abs/2105.04158v1,1,1
+66,"LSPRAG: LSP-Guided RAG for Language-Agnostic Real-Time Unit Test
+  Generation",2025-10-25 08:19:21,"Automated unit test generation is essential for robust software development,
+yet existing approaches struggle to generalize across multiple programming
+languages and operate within real-time development. While Large Language Models
+(LLMs) offer a promising solution, their ability to generate high coverage test
+code depends on prompting a concise context of the focal method. Current
+solutions, such as Retrieval-Augmented Generation, either rely on imprecise
+similarity-based searches or demand the creation of costly, language-specific
+static analysis pipelines. To address this gap, we present LSPRAG, a framework
+for concise-context retrieval tailored for real-time, language-agnostic unit
+test generation. LSPRAG leverages off-the-shelf Language Server Protocol (LSP)
+back-ends to supply LLMs with precise symbol definitions and references in real
+time. By reusing mature LSP servers, LSPRAG provides an LLM with language-aware
+context retrieval, requiring minimal per-language engineering effort. We
+evaluated LSPRAG on open-source projects spanning Java, Go, and Python.
+Compared to the best performance of baselines, LSPRAG increased line coverage
+by up to 174.55% for Golang, 213.31% for Java, and 31.57% for Python.",http://arxiv.org/abs/2510.22210v1,1,1
+67,"JavaBench: A Benchmark of Object-Oriented Code Generation for Evaluating
+  Large Language Models",2024-06-10 06:43:25,"Code generation benchmarks such as HumanEval are widely adopted to evaluate
+LLMs' capabilities. However, after consolidating the latest 24 benchmarks, we
+noticed three significant imbalances. First, imbalanced programming language.
+95.8% of benchmarks involve Python, while only 5 benchmarks involve Java.
+Second, imbalanced code granularity. Function-/statement-level benchmarks
+account for over 83.3% of benchmarks. Only a mere handful extends to
+class-/project-levels, and all are limited to Python. Third, lacking advanced
+features. Existing benchmarks primarily assess basic coding skills, while
+overlooking advanced Object-Oriented Programming (OOP) features (i.e.,
+encapsulation, inheritance, and polymorphism).
+  To fill these gaps, we propose JavaBench, a project-level Java benchmark that
+exercises OOP features. It comprises four Java projects with 389 methods in 106
+Java classes. The test coverage is up to 92%, and JavaBench is attested by 282
+undergraduate students, reaching a 90.93/100 average score (i.e., pass rate
+against the test suite), ensuring the quality of documentation, code skeleton,
+and tests. To better evaluate LLM's capability against JavaBench, we introduce
+a systematic evaluation design covering three context settings and five
+synthesis strategies at two granularities using three hierarchical metrics. Our
+extensive experiment yields several interesting findings. First, we noticed
+that regarding project-level Java programming, LLMs are far behind
+undergraduate students (no project can be correctly completed by any studied
+LLMs, and at most 41.17% Pass@5 in a more relaxed evaluation). Second, using
+method signature as prompt context may strike an ideal balance for
+project-level code generation. JavaBench is publicly available at
+https://github.com/java-bench/JavaBench.",http://arxiv.org/abs/2406.12902v2,1,1
+68,"From Empirical Evaluation to Context-Aware Enhancement: Repairing
+  Regression Errors with LLMs",2025-06-16 07:49:18,"[...] Since then, various APR approaches, especially those leveraging the
+power of large language models (LLMs), have been rapidly developed to fix
+general software bugs. Unfortunately, the effectiveness of these advanced
+techniques in the context of regression bugs remains largely unexplored. This
+gap motivates the need for an empirical study evaluating the effectiveness of
+modern APR techniques in fixing real-world regression bugs.
+  In this work, we conduct an empirical study of APR techniques on Java
+regression bugs. To facilitate our study, we introduce RegMiner4APR, a
+high-quality benchmark of Java regression bugs integrated into a framework
+designed to facilitate APR research. The current benchmark includes 99
+regression bugs collected from 32 widely used real-world Java GitHub
+repositories. We begin by conducting an in-depth analysis of the benchmark,
+demonstrating its diversity and quality. Building on this foundation, we
+empirically evaluate the capabilities of APR to regression bugs by assessing
+both traditional APR tools and advanced LLM-based APR approaches. Our
+experimental results show that classical APR tools fail to repair any bugs,
+while LLM-based APR approaches exhibit promising potential. Motivated by these
+results, we investigate impact of incorporating bug-inducing change information
+into LLM-based APR approaches for fixing regression bugs. Our results highlight
+that this context-aware enhancement significantly improves the performance of
+LLM-based APR, yielding 1.8x more successful repairs compared to using
+LLM-based APR without such context.",http://arxiv.org/abs/2506.13182v1,1,1
+69,SWE-bench-java: A GitHub Issue Resolving Benchmark for Java,2024-08-26 15:30:05,"GitHub issue resolving is a critical task in software engineering, recently
+gaining significant attention in both industry and academia. Within this task,
+SWE-bench has been released to evaluate issue resolving capabilities of large
+language models (LLMs), but has so far only focused on Python version. However,
+supporting more programming languages is also important, as there is a strong
+demand in industry. As a first step toward multilingual support, we have
+developed a Java version of SWE-bench, called SWE-bench-java. We have publicly
+released the dataset, along with the corresponding Docker-based evaluation
+environment and leaderboard, which will be continuously maintained and updated
+in the coming months. To verify the reliability of SWE-bench-java, we implement
+a classic method SWE-agent and test several powerful LLMs on it. As is well
+known, developing a high-quality multi-lingual benchmark is time-consuming and
+labor-intensive, so we welcome contributions through pull requests or
+collaboration to accelerate its iteration and refinement, paving the way for
+fully automated programming.",http://arxiv.org/abs/2408.14354v1,1,1
+70,"LLM-Driven Collaborative Model for Untangling Commits via Explicit and
+  Implicit Dependency Reasoning",2025-07-22 09:42:13,"Atomic commits, each of which addresses a single development concern, are a
+best practice in software development. However, developers frequently produce
+tangled commits that mix unrelated changes due to practical constraints or
+unclear boundaries, negatively impacting code review and maintenance. Although
+prior commit untangling approaches: rule-based, feature-based, or graph-based,
+have made progress, they often rely on shallow signals and fail to distinguish
+between explicit dependencies (e.g., control/data flow) and implicit ones
+(e.g., semantic or conceptual relationships). In this paper, we propose
+ColaUntangle, a new collaborative consultation framework for commit untangling
+that models both explicit and implicit dependencies among code changes.
+ColaUntangle integrates Large Language Model (LLM)-driven agents in a
+multi-agent architecture: one agent specializes in explicit dependencies,
+another in implicit ones, and a reviewer agent synthesizes their perspectives
+through iterative consultation. To capture explicit and implicit contextual
+information, we construct multi-version Program Dependency Graphs (delta-PDG),
+enabling agents to reason over code relationships with both symbolic and
+semantic depth. We evaluate ColaUntangle on two widely-used datasets (1,612 C#
+and 14k Java tangled commits). Experimental results show that ColaUntangle
+outperforms the best-performing baseline, achieving an improvement of 44% on
+the C# dataset and 100% on the Java dataset. These findings highlight the
+potential of LLM-based collaborative frameworks for advancing automated commit
+untangling tasks.",http://arxiv.org/abs/2507.16395v1,1,1
+71,OctoPack: Instruction Tuning Code Large Language Models,2023-08-14 13:53:54,"Finetuning large language models (LLMs) on instructions leads to vast
+performance improvements on natural language tasks. We apply instruction tuning
+using code, leveraging the natural structure of Git commits, which pair code
+changes with human instructions. We compile CommitPack: 4 terabytes of Git
+commits across 350 programming languages. We benchmark CommitPack against other
+natural and synthetic code instructions (xP3x, Self-Instruct, OASST) on the 16B
+parameter StarCoder model, and achieve state-of-the-art performance among
+models not trained on OpenAI outputs, on the HumanEval Python benchmark (46.2%
+pass@1). We further introduce HumanEvalPack, expanding the HumanEval benchmark
+to a total of 3 coding tasks (Code Repair, Code Explanation, Code Synthesis)
+across 6 languages (Python, JavaScript, Java, Go, C++, Rust). Our models,
+OctoCoder and OctoGeeX, achieve the best performance across HumanEvalPack among
+all permissive models, demonstrating CommitPack's benefits in generalizing to a
+wider set of languages and natural coding tasks. Code, models and data are
+freely available at https://github.com/bigcode-project/octopack.",http://arxiv.org/abs/2308.07124v2,1,1
+72,Can Programming Languages Boost Each Other via Instruction Tuning?,2023-08-31 15:53:51,"When human programmers have mastered a programming language, it would be
+easier when they learn a new programming language. In this report, we focus on
+exploring whether programming languages can boost each other during the
+instruction fine-tuning phase of code large language models. We conduct
+extensive experiments of 8 popular programming languages (Python, JavaScript,
+TypeScript, C, C++, Java, Go, HTML) on StarCoder. Results demonstrate that
+programming languages can significantly improve each other. For example,
+CodeM-Python 15B trained on Python is able to increase Java by an absolute
+17.95% pass@1 on HumanEval-X. More surprisingly, we found that CodeM-HTML 7B
+trained on the HTML corpus can improve Java by an absolute 15.24% pass@1. Our
+training data is released at https://github.com/NL2Code/CodeM.",http://arxiv.org/abs/2308.16824v2,1,1
+73,"Adaptive Measurement-Based Policy-Driven QoS Management with
+  Fuzzy-Rule-based Resource Allocation",2013-11-06 16:23:39,"Fixed and wireless networks are increasingly converging towards common
+connectivity with IP-based core networks. Providing effective end-to-end
+resource and QoS management in such complex heterogeneous converged network
+scenarios requires unified, adaptive and scalable solutions to integrate and
+co-ordinate diverse QoS mechanisms of different access technologies with
+IP-based QoS. Policy-Based Network Management (PBNM) is one approach that could
+be employed to address this challenge. Hence, a policy-based framework for
+end-to-end QoS management in converged networks, CNQF (Converged Networks QoS
+Management Framework) has been proposed within our project. In this paper, the
+CNQF architecture, a Java implementation of its prototype and experimental
+validation of key elements are discussed. We then present a fuzzy-based CNQF
+resource management approach and study the performance of our implementation
+with real traffic flows on an experimental testbed. The results demonstrate the
+efficacy of our resource-adaptive approach for practical PBNM systems.",http://arxiv.org/abs/1311.1436v1,1,1
+74,"GitGoodBench: A Novel Benchmark For Evaluating Agentic Performance On
+  Git",2025-05-28 16:56:11,"Benchmarks for Software Engineering (SE) AI agents, most notably SWE-bench,
+have catalyzed progress in programming capabilities of AI agents. However, they
+overlook critical developer workflows such as Version Control System (VCS)
+operations. To address this issue, we present GitGoodBench, a novel benchmark
+for evaluating AI agent performance on VCS tasks. GitGoodBench covers three
+core Git scenarios extracted from permissive open-source Python, Java, and
+Kotlin repositories. Our benchmark provides three datasets: a comprehensive
+evaluation suite (900 samples), a rapid prototyping version (120 samples), and
+a training corpus (17,469 samples). We establish baseline performance on the
+prototyping version of our benchmark using GPT-4o equipped with custom tools,
+achieving a 21.11% solve rate overall. We expect GitGoodBench to serve as a
+crucial stepping stone toward truly comprehensive SE agents that go beyond mere
+programming.",http://arxiv.org/abs/2505.22583v1,1,1
+75,CTBNCToolkit: Continuous Time Bayesian Network Classifier Toolkit,2014-04-18 21:48:34,"Continuous time Bayesian network classifiers are designed for temporal
+classification of multivariate streaming data when time duration of events
+matters and the class does not change over time. This paper introduces the
+CTBNCToolkit: an open source Java toolkit which provides a stand-alone
+application for temporal classification and a library for continuous time
+Bayesian network classifiers. CTBNCToolkit implements the inference algorithm,
+the parameter learning algorithm, and the structural learning algorithm for
+continuous time Bayesian network classifiers. The structural learning algorithm
+is based on scoring functions: the marginal log-likelihood score and the
+conditional log-likelihood score are provided. CTBNCToolkit provides also an
+implementation of the expectation maximization algorithm for clustering
+purpose. The paper introduces continuous time Bayesian network classifiers. How
+to use the CTBNToolkit from the command line is described in a specific
+section. Tutorial examples are included to facilitate users to understand how
+the toolkit must be used. A section dedicate to the Java library is proposed to
+help further code extensions.",http://arxiv.org/abs/1404.4893v1,1,1
+76,Syntax and Domain Aware Model for Unsupervised Program Translation,2023-02-08 06:54:55,"There is growing interest in software migration as the development of
+software and society. Manually migrating projects between languages is
+error-prone and expensive. In recent years, researchers have begun to explore
+automatic program translation using supervised deep learning techniques by
+learning from large-scale parallel code corpus. However, parallel resources are
+scarce in the programming language domain, and it is costly to collect
+bilingual data manually. To address this issue, several unsupervised
+programming translation systems are proposed. However, these systems still rely
+on huge monolingual source code to train, which is very expensive. Besides,
+these models cannot perform well for translating the languages that are not
+seen during the pre-training procedure. In this paper, we propose SDA-Trans, a
+syntax and domain-aware model for program translation, which leverages the
+syntax structure and domain knowledge to enhance the cross-lingual transfer
+ability. SDA-Trans adopts unsupervised training on a smaller-scale corpus,
+including Python and Java monolingual programs. The experimental results on
+function translation tasks between Python, Java, and C++ show that SDA-Trans
+outperforms many large-scale pre-trained models, especially for unseen language
+translation.",http://arxiv.org/abs/2302.03908v2,1,1
+77,Python Agent in Ludii,2024-12-18 22:12:52,"Ludii is a Java general game system with a considerable number of board
+games, with an API for developing new agents and a game description language to
+create new games. To improve versatility and ease development, we provide
+Python interfaces for agent programming. This allows the use of Python modules
+to implement general game playing agents.
+  As a means of enabling Python for creating Ludii agents, the interfaces are
+implemented using different Java libraries: jpy and Py4J. The main goal of this
+work is to determine which version is faster. To do so, we conducted a
+performance analysis of two different GGP algorithms, Minimax adapted to GGP
+and MCTS. The analysis was performed across several combinatorial games with
+varying depth, branching factor, and ply time. For reproducibility, we provide
+tutorials and repositories.
+  Our analysis includes predictive models using regression, which suggest that
+jpy is faster than Py4J, however slower than a native Java Ludii agent, as
+expected.",http://arxiv.org/abs/2412.14372v1,1,1
+78,"CRUXEval-X: A Benchmark for Multilingual Code Reasoning, Understanding
+  and Execution",2024-08-23 11:43:00,"Code benchmarks such as HumanEval are widely adopted to evaluate Large
+Language Models' (LLMs) coding capabilities. However, there is an unignorable
+programming language bias in existing code benchmarks -- over 95% code
+generation benchmarks are dominated by Python, leaving the LLMs' capabilities
+in other programming languages such as Java and C/C++ unknown. Moreover, coding
+task bias is also crucial. Most benchmarks focus on code generation capability,
+while benchmarks for code reasoning (given input, reasoning output; and given
+output, reasoning input), an essential coding capability, are insufficient.
+Yet, constructing multi-lingual benchmarks can be expensive and
+labor-intensive, and codes in contest websites such as Leetcode suffer from
+data contamination during training. To fill this gap, we propose CRUXEVAL-X, a
+multi-lingual code reasoning benchmark that contains 19 programming languages.
+It comprises at least 600 subjects for each language, along with 19K
+content-consistent tests in total. In particular, the construction pipeline of
+CRUXEVAL-X works in a fully automated and test-guided manner, which iteratively
+generates and repairs based on execution feedback. Also, to cross language
+barriers (e.g., dynamic/static type systems in Python/C++), we formulated
+various transition rules between language pairs to facilitate translation. Our
+intensive evaluation of 24 representative LLMs reveals the correlation between
+language pairs. For example, TypeScript and JavaScript show a significant
+positive correlation, while Racket has less correlation with other languages.
+More interestingly, even a model trained solely on Python can achieve at most
+34.4% Pass@1 in other languages, revealing the cross-language generalization of
+LLMs.",http://arxiv.org/abs/2408.13001v2,1,1
+79,"MultiAIGCD: A Comprehensive dataset for AI Generated Code Detection
+  Covering Multiple Languages, Models,Prompts, and Scenarios",2025-07-29 11:16:55,"As large language models (LLMs) rapidly advance, their role in code
+generation has expanded significantly. While this offers streamlined
+development, it also creates concerns in areas like education and job
+interviews. Consequently, developing robust systems to detect AI-generated code
+is imperative to maintain academic integrity and ensure fairness in hiring
+processes. In this study, we introduce MultiAIGCD, a dataset for AI-generated
+code detection for Python, Java, and Go. From the CodeNet dataset's problem
+definitions and human-authored codes, we generate several code samples in Java,
+Python, and Go with six different LLMs and three different prompts. This
+generation process covered three key usage scenarios: (i) generating code from
+problem descriptions, (ii) fixing runtime errors in human-written code, and
+(iii) correcting incorrect outputs. Overall, MultiAIGCD consists of 121,271
+AI-generated and 32,148 human-written code snippets. We also benchmark three
+state-of-the-art AI-generated code detection models and assess their
+performance in various test scenarios such as cross-model and cross-language.
+We share our dataset and codes to support research in this field.",http://arxiv.org/abs/2507.21693v1,1,1
+80,CoDesc: A Large Code-Description Parallel Dataset,2021-05-29 05:40:08,"Translation between natural language and source code can help software
+development by enabling developers to comprehend, ideate, search, and write
+computer programs in natural language. Despite growing interest from the
+industry and the research community, this task is often difficult due to the
+lack of large standard datasets suitable for training deep neural models,
+standard noise removal methods, and evaluation benchmarks. This leaves
+researchers to collect new small-scale datasets, resulting in inconsistencies
+across published works. In this study, we present CoDesc -- a large parallel
+dataset composed of 4.2 million Java methods and natural language descriptions.
+With extensive analysis, we identify and remove prevailing noise patterns from
+the dataset. We demonstrate the proficiency of CoDesc in two complementary
+tasks for code-description pairs: code summarization and code search. We show
+that the dataset helps improve code search by up to 22\% and achieves the new
+state-of-the-art in code summarization. Furthermore, we show CoDesc's
+effectiveness in pre-training--fine-tuning setup, opening possibilities in
+building pretrained language models for Java. To facilitate future research, we
+release the dataset, a data processing tool, and a benchmark at
+\url{https://github.com/csebuetnlp/CoDesc}.",http://arxiv.org/abs/2105.14220v1,1,1
+81,"On the Eve of True Explainability for OWL Ontologies: Description Logic
+  Proofs with Evee and Evonne (Extended Version)",2022-06-15 17:59:46,"When working with description logic ontologies, understanding entailments
+derived by a description logic reasoner is not always straightforward. So far,
+the standard ontology editor Prot\'eg\'e offers two services to help:
+(black-box) justifications for OWL 2 DL ontologies, and (glass-box) proofs for
+lightweight OWL EL ontologies, where the latter exploits the proof facilities
+of reasoner ELK. Since justifications are often insufficient in explaining
+inferences, there is thus only little tool support for explaining inferences in
+more expressive DLs. In this paper, we introduce EVEE-LIBS, a Java library for
+computing proofs for DLs up to ALCH, and EVEE-PROTEGE, a collection of
+Prot\'eg\'e plugins for displaying those proofs in Prot\'eg\'e. We also give a
+short glimpse of the latest version of EVONNE, a more advanced standalone
+application for displaying and interacting with proofs computed with EVEE-LIBS.",http://arxiv.org/abs/2206.07711v1,1,1
+82,FreshBrew: A Benchmark for Evaluating AI Agents on Java Code Migration,2025-10-06 14:39:58,"AI coding assistants are rapidly becoming integral to modern software
+development. A key challenge in this space is the continual need to migrate and
+modernize codebases in response to evolving software ecosystems. Traditionally,
+such migrations have relied on rule-based systems and human intervention. With
+the advent of powerful large language models (LLMs), AI-driven agentic
+frameworks offer a promising alternative-but their effectiveness has not been
+systematically evaluated. In this paper, we introduce FreshBrew, a novel
+benchmark for evaluating AI agents on project-level Java migrations, with a
+specific focus on measuring an agent's ability to preserve program semantics
+and avoid reward hacking, which we argue requires projects with high test
+coverage for a rigorous and reliable evaluation. We benchmark several
+state-of-the-art LLMs, and compare their performance against established
+rule-based tools. Our evaluation of AI agents on this benchmark of 228
+repositories shows that the top-performing model, Gemini 2.5 Flash, can
+successfully migrate 52.3 percent of projects to JDK 17. Our empirical analysis
+reveals novel insights into the critical strengths and limitations of current
+agentic approaches, offering actionable insights into their real-world
+applicability. Our empirical study reveals failure modes of current AI agents
+in realistic Java modernization tasks, providing a foundation for evaluating
+trustworthy code-migration systems. By releasing FreshBrew, we aim to
+facilitate rigorous, reproducible evaluation and catalyze progress in AI-driven
+codebase modernization.",http://arxiv.org/abs/2510.04852v2,1,1
+83,Search4Code: Code Search Intent Classification Using Weak Supervision,2020-11-24 08:06:53,"Developers use search for various tasks such as finding code, documentation,
+debugging information, etc. In particular, web search is heavily used by
+developers for finding code examples and snippets during the coding process.
+Recently, natural language based code search has been an active area of
+research. However, the lack of real-world large-scale datasets is a significant
+bottleneck. In this work, we propose a weak supervision based approach for
+detecting code search intent in search queries for C# and Java programming
+languages. We evaluate the approach against several baselines on a real-world
+dataset comprised of over 1 million queries mined from Bing web search engine
+and show that the CNN based model can achieve an accuracy of 77% and 76% for C#
+and Java respectively. Furthermore, we are also releasing Search4Code, the
+first large-scale real-world dataset of code search queries mined from Bing web
+search engine. We hope that the dataset will aid future research on code
+search.",http://arxiv.org/abs/2011.11950v3,1,1
+84,CSA-Trans: Code Structure Aware Transformer for AST,2024-04-07 10:59:35,"When applying the Transformer architecture to source code, designing a good
+self-attention mechanism is critical as it affects how node relationship is
+extracted from the Abstract Syntax Trees (ASTs) of the source code. We present
+Code Structure Aware Transformer (CSA-Trans), which uses Code Structure
+Embedder (CSE) to generate specific PE for each node in AST. CSE generates node
+Positional Encoding (PE) using disentangled attention. To further extend the
+self-attention capability, we adopt Stochastic Block Model (SBM) attention. Our
+evaluation shows that our PE captures the relationships between AST nodes
+better than other graph-related PE techniques. We also show through
+quantitative and qualitative analysis that SBM attention is able to generate
+more node specific attention coefficients. We demonstrate that CSA-Trans
+outperforms 14 baselines in code summarization tasks for both Python and Java,
+while being 41.92% faster and 25.31% memory efficient in Java dataset compared
+to AST-Trans and SG-Trans respectively.",http://arxiv.org/abs/2404.05767v1,1,1
+85,"CoTran: An LLM-based Code Translator using Reinforcement Learning with
+  Feedback from Compiler and Symbolic Execution",2023-06-11 19:47:52,"In this paper, we present an LLM-based code translation method and an
+associated tool called CoTran, that translates whole-programs from one
+high-level programming language to another. Existing LLM-based code translation
+methods lack training to ensure that the translated code reliably compiles or
+bears substantial functional equivalence to the input code. In our work, we
+fine-tune an LLM using reinforcement learning, incorporating compiler feedback,
+and symbolic execution (symexec)-based testing feedback to assess functional
+equivalence between the input and output programs. The idea is to guide an LLM
+during fine-tuning, via compiler and symexec-based testing feedback, by letting
+it know how far it is from producing perfect translations. We conduct extensive
+experiments comparing CoTran with 14 other code translation tools, including
+human-written transpilers, LLM-based translation tools, and ChatGPT. Using a
+benchmark of over \num{57000} code pairs in Java and Python, we demonstrate
+that CoTran outperforms the other tools on relevant metrics such as compilation
+accuracy (CompAcc) and functional equivalence accuracy (FEqAcc). For example,
+in Python-to-Java translation, CoTran achieves 48.68% FEqAcc and 76.98%
+CompAcc, whereas the nearest competing tool (PLBART-base) gets 38.26% and
+75.77% respectively. Additionally, CoTran, built on top of CodeT5, improves
+FEqAcc by +14.89% and CompAcc by +8.14% for Python-to-Java (resp., +12.94% and
++4.30% for Java-to-Python).",http://arxiv.org/abs/2306.06755v4,1,1
+86,"Navigating the Labyrinth: Path-Sensitive Unit Test Generation with Large
+  Language Models",2025-09-28 11:29:57,"Unit testing is essential for software quality assurance, yet writing and
+maintaining tests remains time-consuming and error-prone. To address this
+challenge, researchers have proposed various techniques for automating unit
+test generation, including traditional heuristic-based methods and more recent
+approaches that leverage large language models (LLMs). However, these existing
+approaches are inherently path-insensitive because they rely on fixed
+heuristics or limited contextual information and fail to reason about deep
+control-flow structures. As a result, they often struggle to achieve adequate
+coverage, particularly for deep or complex execution paths. In this work, we
+present a path-sensitive framework, JUnitGenie, to fill this gap by combining
+code knowledge with the semantic capabilities of LLMs in guiding context-aware
+unit test generation. After extracting code knowledge from Java projects,
+JUnitGenie distills this knowledge into structured prompts to guide the
+generation of high-coverage unit tests. We evaluate JUnitGenie on 2,258 complex
+focal methods from ten real-world Java projects. The results show that
+JUnitGenie generates valid tests and improves branch and line coverage by
+29.60% and 31.00% on average over both heuristic and LLM-based baselines. We
+further demonstrate that the generated test cases can uncover real-world bugs,
+which were later confirmed and fixed by developers.",http://arxiv.org/abs/2509.23812v2,1,1
+87,CostMAP: An open-source software package for developing cost surfaces,2019-06-17 20:30:13,"Cost Surfaces are a quantitative means of assigning social, environmental,
+and engineering costs that impact movement across landscapes. Cost surfaces are
+a crucial aspect of route optimization and least cost path (LCP) calculations
+and are used in a wide range of disciplines including computer science,
+landscape ecology, and energy infrastructure modeling. Linear features present
+a key weakness to traditional routing calculations along costs surfaces because
+they cannot identify whether moving from a cell to its adjacent neighbors
+constitutes crossing a linear barrier (increased cost) or following a corridor
+(reduced cost). Following and avoiding linear features can drastically change
+predicted routes. In this paper, we introduce an approach to address this
+""adjacency"" issue using a search kernel that identifies these critical barriers
+and corridors. We have built this approach into a new Java-based open-source
+software package called CostMAP (cost surface multi-layer aggregation program),
+which calculates cost surfaces and cost networks using the search kernel.
+CostMAP not only includes the new adjacency capability, it is also a versatile
+multi-platform package that allows users to input multiple GIS data layers and
+to set weights and rules for developing a weighted-cost network. We compare
+CostMAP performance with traditional cost surface approaches and show
+significant performance gains, both following corridors and avoiding barriers,
+using examples in a movement ecology framework and pipeline routing for carbon
+capture, and storage (CCS). We also demonstrate that the new software can
+straightforwardly calculate cost surfaces on a national scale.",http://arxiv.org/abs/1906.08872v1,2,1
+88,"A Systematic Evaluation of Parameter-Efficient Fine-Tuning Methods for
+  the Security of Code LLMs",2025-09-16 04:09:41,"Code-generating Large Language Models (LLMs) significantly accelerate
+software development. However, their frequent generation of insecure code
+presents serious risks. We present a comprehensive evaluation of seven
+parameter-efficient fine-tuning (PEFT) techniques, demonstrating substantial
+gains in secure code generation without compromising functionality. Our
+research identifies prompt-tuning as the most effective PEFT method, achieving
+an 80.86% Overall-Secure-Rate on CodeGen2 16B, a 13.5-point improvement over
+the 67.28% baseline. Optimizing decoding strategies through sampling
+temperature further elevated security to 87.65%. This equates to a reduction of
+approximately 203,700 vulnerable code snippets per million generated. Moreover,
+prompt and prefix tuning increase robustness against poisoning attacks in our
+TrojanPuzzle evaluation, with strong performance against CWE-79 and CWE-502
+attack vectors. Our findings generalize across Python and Java, confirming
+prompt-tuning's consistent effectiveness. This study provides essential
+insights and practical guidance for building more resilient software systems
+with LLMs.",http://arxiv.org/abs/2509.12649v1,1,1
+89,Design and Implementation of TAG: A Tabletop Games Framework,2020-09-25 07:27:30,"This document describes the design and implementation of the Tabletop Games
+framework (TAG), a Java-based benchmark for developing modern board games for
+AI research. TAG provides a common skeleton for implementing tabletop games
+based on a common API for AI agents, a set of components and classes to easily
+add new games and an import module for defining data in JSON format. At
+present, this platform includes the implementation of seven different tabletop
+games that can also be used as an example for further developments.
+Additionally, TAG also incorporates logging functionality that allows the user
+to perform a detailed analysis of the game, in terms of action space, branching
+factor, hidden information, and other measures of interest for Game AI
+research. The objective of this document is to serve as a central point where
+the framework can be described at length. TAG can be downloaded at:
+https://github.com/GAIGResearch/TabletopGames",http://arxiv.org/abs/2009.12065v1,1,1
+90,"Generating executable oracles to check conformance of client code to
+  requirements of JDK Javadocs using LLMs",2024-11-04 04:24:25,"Software testing remains the most widely used methodology for validating
+quality of code. However, effectiveness of testing critically depends on the
+quality of test suites used. Test cases in a test suite consist of two
+fundamental parts: (1) input values for the code under test, and (2) correct
+checks for the outputs it produces. These checks are commonly written as
+assertions, and termed test oracles. The last couple of decades have seen much
+progress in automated test input generation, e.g., using fuzzing and symbolic
+execution. However, automating test oracles remains a relatively less explored
+problem area. Indeed, a test oracle by its nature requires knowledge of
+expected behavior, which may only be known to the developer and may not not
+exist in a formal language that supports automated reasoning.
+  Our focus in this paper is automation of test oracles for clients of widely
+used Java libraries, e.g., java.lang and java.util packages. Our key insight is
+that Javadocs that provide a rich source of information can enable automated
+generation of test oracles. Javadocs of the core Java libraries are fairly
+detailed documents that contain natural language descriptions of not only how
+the libraries behave but also how the clients must (not) use them. We use large
+language models as an enabling technology to embody our insight into a
+framework for test oracle automation, and evaluate it experimentally. Our
+experiments demonstrate that LLMs can generate oracles for checking normal and
+exceptional behaviors from Javadocs, with 98.8% of these oracles being
+compilable and 96.4% accurately reflecting intended properties. Even for the
+few incorrect oracles, errors are minor and can be easily corrected with the
+help of additional comment information generated by the LLMs.",http://arxiv.org/abs/2411.01789v2,1,1
+91,Optimizing Heuristics for Tableau-based OWL Reasoners,2018-10-15 19:06:14,"Optimization techniques play a significant role in improving description
+logic reasoners covering the Web Ontology Language (OWL). These techniques are
+essential to speed up these reasoners. Many of the optimization techniques are
+based on heuristic choices. Optimal heuristic selection makes these techniques
+more effective. The FaCT++ OWL reasoner and its Java version JFact implement an
+optimization technique called ToDo list which is a substitute for a traditional
+top-down approach in tableau-based reasoners. The ToDo list mechanism allows
+one to arrange the order of applying different rules by giving each a priority.
+Compared to a top-down approach, the ToDo list technique has a better control
+over the application of expansion rules. Learning the proper heuristic order
+for applying rules in ToDo lis} will have a great impact on reasoning speed. We
+use a binary SVM technique to build our learning model. The model can help to
+choose ontology-specific order sets to speed up OWL reasoning. On average, our
+learning approach tested with 40 selected ontologies achieves a speedup of two
+orders of magnitude when compared to the worst rule ordering choice.",http://arxiv.org/abs/1810.06617v2,1,1
+92,CodeS: Towards Code Model Generalization Under Distribution Shift,2022-06-11 09:32:29,"Distribution shift has been a longstanding challenge for the reliable
+deployment of deep learning (DL) models due to unexpected accuracy degradation.
+Although DL has been becoming a driving force for large-scale source code
+analysis in the big code era, limited progress has been made on distribution
+shift analysis and benchmarking for source code tasks. To fill this gap, this
+paper initiates to propose CodeS, a distribution shift benchmark dataset, for
+source code learning. Specifically, CodeS supports two programming languages
+(Java and Python) and five shift types (task, programmer, time-stamp, token,
+and concrete syntax tree). Extensive experiments based on CodeS reveal that 1)
+out-of-distribution detectors from other domains (e.g., computer vision) do not
+generalize to source code, 2) all code classification models suffer from
+distribution shifts, 3) representation-based shifts have a higher impact on the
+model than others, and 4) pre-trained bimodal models are relatively more
+resistant to distribution shifts.",http://arxiv.org/abs/2206.05480v2,1,1
+93,TrustyAI Explainability Toolkit,2021-04-26 17:00:32,"Artificial intelligence (AI) is becoming increasingly more popular and can be
+found in workplaces and homes around the world. The decisions made by such
+""black box"" systems are often opaque; that is, so complex as to be functionally
+impossible to understand. How do we ensure that these systems are behaving as
+desired? TrustyAI is an initiative which looks into explainable artificial
+intelligence (XAI) solutions to address this issue of explainability in the
+context of both AI models and decision services. This paper presents the
+TrustyAI Explainability Toolkit, a Java and Python library that provides XAI
+explanations of decision services and predictive models for both enterprise and
+data science use-cases. We describe the TrustyAI implementations and extensions
+to techniques such as LIME, SHAP and counterfactuals, which are benchmarked
+against existing implementations in a variety of experiments.",http://arxiv.org/abs/2104.12717v2,1,1
+94,Enhancing Neural Code Representation with Additional Context,2025-10-14 02:45:42,"Automated program comprehension underpins many software engineering tasks,
+from code summarisation to clone detection. Recent deep learning models achieve
+strong results but typically rely on source code alone, overlooking contextual
+information such as version history or structural relationships. This limits
+their ability to capture how code evolves and operates. We conduct an empirical
+study on how enriching code representations with such contextual signals
+affects neural model performance on key comprehension tasks. Two downstream
+tasks, code clone detection and code summarisation, are evaluated using SeSaMe
+(1,679 Java methods) and CodeSearchNet (63,259 methods). Five representative
+models (CodeBERT, GraphCodeBERT, CodeT5, PLBART, ASTNN) are fine-tuned under
+code-only and context-augmented settings. Results show that context generally
+improves performance: version history consistently boosts clone detection
+(e.g., CodeT5 +15.92% F1) and summarisation (e.g., GraphCodeBERT +5.56%
+METEOR), while call-graph effects vary by model and task. Combining multiple
+contexts yields further gains (up to +21.48% macro-F1). Human evaluation on 100
+Java snippets confirms that context-augmented summaries are significantly
+preferred for Accuracy and Content Adequacy (p <= 0.026; |delta| up to 0.55).
+These findings highlight the potential of contextual signals to enhance code
+comprehension and open new directions for optimising contextual encoding in
+neural SE models.",http://arxiv.org/abs/2510.12082v1,1,1
+95,Studying Vulnerable Code Entities in R,2024-02-06 21:39:55,"Pre-trained Code Language Models (Code-PLMs) have shown many advancements and
+achieved state-of-the-art results for many software engineering tasks in the
+past few years. These models are mainly targeted for popular programming
+languages such as Java and Python, leaving out many other ones like R. Though R
+has a wide community of developers and users, there is little known about the
+applicability of Code-PLMs for R. In this preliminary study, we aim to
+investigate the vulnerability of Code-PLMs for code entities in R. For this
+purpose, we use an R dataset of code and comment pairs and then apply
+CodeAttack, a black-box attack model that uses the structure of code to
+generate adversarial code samples. We investigate how the model can attack
+different entities in R. This is the first step towards understanding the
+importance of R token types, compared to popular programming languages (e.g.,
+Java). We limit our study to code summarization. Our results show that the most
+vulnerable code entity is the identifier, followed by some syntax tokens
+specific to R. The results can shed light on the importance of token types and
+help in developing models for code summarization and method name prediction for
+the R language.",http://arxiv.org/abs/2402.04421v1,1,1
+96,Narrow Transformer: StarCoder-Based Java-LM For Desktop,2024-07-04 13:54:24,"This paper presents NT-Java-1.1B, an open-source specialized code language
+model built on StarCoderBase-1.1B, designed for coding tasks in Java
+programming. NT-Java-1.1B achieves state-of-the-art performance, surpassing its
+base model and majority of other models of similar size on MultiPL-E Java code
+benchmark. While there have been studies on extending large, generic
+pre-trained models to improve proficiency in specific programming languages
+like Python, similar investigations on small code models for other programming
+languages are lacking. Large code models require specialized hardware like GPUs
+for inference, highlighting the need for research into building small code
+models that can be deployed on developer desktops. This paper addresses this
+research gap by focusing on the development of a small Java code model,
+NT-Java-1.1B, and its quantized versions, which performs comparably to open
+models around 1.1B on MultiPL-E Java code benchmarks, making them ideal for
+desktop deployment. This paper establishes the foundation for specialized
+models across languages and sizes for a family of NT Models.",http://arxiv.org/abs/2407.03941v2,1,1
+97,"Handling irresolvable conflicts in the Semantic Web: an RDF-based
+  conflict-tolerant version of the Deontic Traditional Scheme",2024-11-29 18:33:28,"This paper presents a new ontology that implements the well-known Deontic
+Traditional Scheme in RDFs and SPARQL, fit to handle irresolvable conflicts,
+i.e., situations in which two or more statements prescribe conflicting
+obligations, prohibitions, or permissions, with none of them being ""stronger""
+than the other one(s). In our view, this paper marks a significant advancement
+in standard theoretical research in formal Deontic Logic. Most contemporary
+approaches in this field are confined to the propositional level, mainly focus
+on the notion of obligation, and lack implementations. The proposed framework
+is encoded in RDF, which is not only a first-order language but also the most
+widely used knowledge representation language, as it forms the foundation of
+the Semantic Web. Moreover, the proposed computational ontology formalizes all
+deontic modalities defined in the Deontic Traditional Scheme, without
+specifically focusing on obligations, and offers constructs to model and reason
+with various types of irresolvable conflicts, violations, and the interaction
+between deontic modalities and contextual constraints in a given state of
+affairs. To the best of our knowledge, no existing approach in the literature
+addresses all these aspects within a unified integrated framework. All examples
+presented and discussed in this paper, together with Java code and clear
+instructions to re-execute them locally, are available at
+https://github.com/liviorobaldo/conflict-tolerantDeonticTraditionalScheme",http://arxiv.org/abs/2411.19918v1,1,1
+98,"Investigating the Efficacy of Large Language Models for Code Clone
+  Detection",2024-01-24 20:43:36,"Large Language Models (LLMs) have demonstrated remarkable success in various
+natural language processing and software engineering tasks, such as code
+generation. The LLMs are mainly utilized in the prompt-based zero/few-shot
+paradigm to guide the model in accomplishing the task. GPT-based models are one
+of the popular ones studied for tasks such as code comment generation or test
+generation. These tasks are `generative' tasks. However, there is limited
+research on the usage of LLMs for `non-generative' tasks such as classification
+using the prompt-based paradigm. In this preliminary exploratory study, we
+investigated the applicability of LLMs for Code Clone Detection (CCD), a
+non-generative task. By building a mono-lingual and cross-lingual CCD dataset
+derived from CodeNet, we first investigated two different prompts using ChatGPT
+to detect Type-4 code clones in Java-Java and Java-Ruby pairs in a zero-shot
+setting. We then conducted an analysis to understand the strengths and
+weaknesses of ChatGPT in CCD. ChatGPT surpasses the baselines in cross-language
+CCD attaining an F1-score of 0.877 and achieves comparable performance to fully
+fine-tuned models for mono-lingual CCD, with an F1-score of 0.878. Also, the
+prompt and the difficulty level of the problems has an impact on the
+performance of ChatGPT. Finally we provide insights and future directions based
+on our initial analysis",http://arxiv.org/abs/2401.13802v3,1,1
+99,ScenEval: A Benchmark for Scenario-Based Evaluation of Code Generation,2024-06-18 14:02:20,"In the scenario-based evaluation of machine learning models, a key problem is
+how to construct test datasets that represent various scenarios. The
+methodology proposed in this paper is to construct a benchmark and attach
+metadata to each test case. Then a test system can be constructed with test
+morphisms that filter the test cases based on metadata to form a dataset.
+  The paper demonstrates this methodology with large language models for code
+generation. A benchmark called ScenEval is constructed from problems in
+textbooks, an online tutorial website and Stack Overflow. Filtering by scenario
+is demonstrated and the test sets are used to evaluate ChatGPT for Java code
+generation.
+  Our experiments found that the performance of ChatGPT decreases with the
+complexity of the coding task. It is weakest for advanced topics like
+multi-threading, data structure algorithms and recursive methods. The Java code
+generated by ChatGPT tends to be much shorter than reference solution in terms
+of number of lines, while it is more likely to be more complex in both
+cyclomatic and cognitive complexity metrics, if the generated code is correct.
+However, the generated code is more likely to be less complex than the
+reference solution if the code is incorrect.",http://arxiv.org/abs/2406.12635v1,1,1
+100,How Effective Are Neural Networks for Fixing Security Vulnerabilities,2023-05-29 20:50:27,"Security vulnerability repair is a difficult task that is in dire need of
+automation. Two groups of techniques have shown promise: (1) large code
+language models (LLMs) that have been pre-trained on source code for tasks such
+as code completion, and (2) automated program repair (APR) techniques that use
+deep learning (DL) models to automatically fix software bugs.
+  This paper is the first to study and compare Java vulnerability repair
+capabilities of LLMs and DL-based APR models. The contributions include that we
+(1) apply and evaluate five LLMs (Codex, CodeGen, CodeT5, PLBART and InCoder),
+four fine-tuned LLMs, and four DL-based APR techniques on two real-world Java
+vulnerability benchmarks (Vul4J and VJBench), (2) design code transformations
+to address the training and test data overlapping threat to Codex, (3) create a
+new Java vulnerability repair benchmark VJBench, and its transformed version
+VJBench-trans and (4) evaluate LLMs and APR techniques on the transformed
+vulnerabilities in VJBench-trans.
+  Our findings include that (1) existing LLMs and APR models fix very few Java
+vulnerabilities. Codex fixes 10.2 (20.4%), the most number of vulnerabilities.
+(2) Fine-tuning with general APR data improves LLMs' vulnerability-fixing
+capabilities. (3) Our new VJBench reveals that LLMs and APR models fail to fix
+many Common Weakness Enumeration (CWE) types, such as CWE-325 Missing
+cryptographic step and CWE-444 HTTP request smuggling. (4) Codex still fixes
+8.3 transformed vulnerabilities, outperforming all the other LLMs and APR
+models on transformed vulnerabilities. The results call for innovations to
+enhance automated Java vulnerability repair such as creating larger
+vulnerability repair training data, tuning LLMs with such data, and applying
+code simplification transformation to facilitate vulnerability repair.",http://arxiv.org/abs/2305.18607v2,1,1
+101,GitHub Copilot: the perfect Code compLeeter?,2024-06-17 08:38:29,"This paper aims to evaluate GitHub Copilot's generated code quality based on
+the LeetCode problem set using a custom automated framework. We evaluate the
+results of Copilot for 4 programming languages: Java, C++, Python3 and Rust. We
+aim to evaluate Copilot's reliability in the code generation stage, the
+correctness of the generated code and its dependency on the programming
+language, problem's difficulty level and problem's topic. In addition to that,
+we evaluate code's time and memory efficiency and compare it to the average
+human results. In total, we generate solutions for 1760 problems for each
+programming language and evaluate all the Copilot's suggestions for each
+problem, resulting in over 50000 submissions to LeetCode spread over a 2-month
+period. We found that Copilot successfully solved most of the problems.
+However, Copilot was rather more successful in generating code in Java and C++
+than in Python3 and Rust. Moreover, in case of Python3 Copilot proved to be
+rather unreliable in the code generation phase. We also discovered that
+Copilot's top-ranked suggestions are not always the best. In addition, we
+analysed how the topic of the problem impacts the correctness rate. Finally,
+based on statistics information from LeetCode, we can conclude that Copilot
+generates more efficient code than an average human.",http://arxiv.org/abs/2406.11326v1,1,1
+102,CUBETESTERAI: Automated JUnit Test Generation using the LLaMA Model,2025-03-13 19:44:09,"This paper presents an approach to automating JUnit test generation for Java
+applications using the Spring Boot framework, leveraging the LLaMA (Large
+Language Model Architecture) model to enhance the efficiency and accuracy of
+the testing process. The resulting tool, called CUBETESTERAI, includes a
+user-friendly web interface and the integration of a CI/CD pipeline using
+GitLab and Docker. These components streamline the automated test generation
+process, allowing developers to generate JUnit tests directly from their code
+snippets with minimal manual intervention. The final implementation executes
+the LLaMA models through RunPod, an online GPU service, which also enhances the
+privacy of our tool. Using the advanced natural language processing
+capabilities of the LLaMA model, CUBETESTERAI is able to generate test cases
+that provide high code coverage and accurate validation of software
+functionalities in Java-based Spring Boot applications. Furthermore, it
+efficiently manages resource-intensive operations and refines the generated
+tests to address common issues like missing imports and handling of private
+methods. By comparing CUBETESTERAI with some state-of-the-art tools, we show
+that our proposal consistently demonstrates competitive and, in many cases,
+better performance in terms of code coverage in different real-life Java
+programs.",http://arxiv.org/abs/2504.15286v1,1,1
+103,"ConArg: a Tool to Solve (Weighted) Abstract Argumentation Frameworks
+  with (Soft) Constraints",2012-12-12 16:06:28,"ConArg is a Constraint Programming-based tool that can be used to model and
+solve different problems related to Abstract Argumentation Frameworks (AFs). To
+implement this tool we have used JaCoP, a Java library that provides the user
+with a Finite Domain Constraint Programming paradigm. ConArg is able to
+randomly generate networks with small-world properties in order to find
+conflict-free, admissible, complete, stable grounded, preferred, semi-stable,
+stage and ideal extensions on such interaction graphs. We present the main
+features of ConArg and we report the performance in time, showing also a
+comparison with ASPARTIX [1], a similar tool using Answer Set Programming. The
+use of techniques for constraint solving can tackle the complexity of the
+problems presented in [2]. Moreover we suggest semiring-based soft constraints
+as a mean to parametrically represent and solve Weighted Argumentation
+Frameworks: different kinds of preference levels related to attacks, e.g., a
+score representing a ""fuzziness"", a ""cost"" or a probability, can be represented
+by choosing different instantiation of the semiring algebraic structure. The
+basic idea is to provide a common computational and quantitative framework.",http://arxiv.org/abs/1212.2857v2,1,1
+104,"Evaluating ChatGPT-3.5 Efficiency in Solving Coding Problems of
+  Different Complexity Levels: An Empirical Analysis",2024-11-12 04:01:09,"ChatGPT and other large language models (LLMs) promise to revolutionize
+software development by automatically generating code from program
+specifications. We assess the performance of ChatGPT's GPT-3.5-turbo model on
+LeetCode, a popular platform with algorithmic coding challenges for technical
+interview practice, across three difficulty levels: easy, medium, and hard. We
+test three main hypotheses. First, ChatGPT solves fewer problems as difficulty
+rises (Hypothesis 1). Second, prompt engineering improves ChatGPT's
+performance, with greater gains on easier problems and diminishing returns on
+harder ones (Hypothesis 2). Third, ChatGPT performs better in popular languages
+like Python, Java, and C++ than in less common ones like Elixir, Erlang, and
+Racket (Hypothesis 3). To investigate these hypotheses, we conduct automated
+experiments using Python scripts to generate prompts that instruct ChatGPT to
+create Python solutions. These solutions are stored and manually submitted on
+LeetCode to check their correctness. For Hypothesis 1, results show the
+GPT-3.5-turbo model successfully solves 92% of easy, 79% of medium, and 51% of
+hard problems. For Hypothesis 2, prompt engineering yields improvements: 14-29%
+for Chain of Thought Prompting, 38-60% by providing failed test cases in a
+second feedback prompt, and 33-58% by switching to GPT-4. From a random subset
+of problems ChatGPT solved in Python, it also solved 78% in Java, 50% in C++,
+and none in Elixir, Erlang, or Racket. These findings generally validate all
+three hypotheses.",http://arxiv.org/abs/2411.07529v1,1,1
