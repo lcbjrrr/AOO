@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Author List</title>
+</head>
+<body>
+
+<h1>📚 Author Management</h1>
+
+<div th:if="${message}" style="color: green; border: 1px solid green; padding: 10px;">
+    <p th:text="${message}"></p>
+</div>
+<div th:if="${error}" style="color: red; border: 1px solid red; padding: 10px;">
+    <p th:text="${error}"></p>
+</div>
+
+<h2>Current Authors (<span th:text="${count}">0</span>)</h2>
+
+<p><a th:href="@{/authors/create}">➕ Add New Author</a></p>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Affiliation</th>
+        <th>Email</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="author : ${authors}">
+        <td th:text="${author.authorId}">1</td>
+        <td>
+            <a th:href="@{/authors/update/{id}(id=${author.authorId})}"
+               th:text="${author.name}">Author Name</a>
+        </td>
+        <td th:text="${author.affiliation}">University/Company</td>
+        <td th:text="${author.email}">email@example.com</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
+

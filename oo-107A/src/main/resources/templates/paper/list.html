@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Paper List</title>
+</head>
+<body>
+
+<h1>📰 Paper Management</h1>
+
+<div th:if="${message}" style="color: green; border: 1px solid green; padding: 10px;">
+    <p th:text="${message}"></p>
+</div>
+<div th:if="${error}" style="color: red; border: 1px solid red; padding: 10px;">
+    <p th:text="${error}"></p>
+</div>
+
+<h2>Current Papers (<span th:text="${count}">0</span>)</h2>
+
+<p>
+    <a th:href="@{/papers/create}">➕ Add New Paper</a> |
+    <a th:href="@{/authors/list}">👤 Go to Author List</a>
+</p>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Entry ID</th>
+        <th>Published Date</th>
+        <th>Section/Theme</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="paper : ${papers}">
+        <td th:text="${paper.paperId}">1</td>
+        <td>
+            <a th:href="@{/papers/update/{id}(id=${paper.paperId})}"
+               th:text="${paper.title}">Paper Title</a>
+        </td>
+        <td th:text="${paper.entryId}">DOI or ID</td>
+        <td th:text="${#dates.format(paper.publishedDate, 'yyyy-MM-dd')}">2024-01-01</td>
+        <td th:text="${paper.sectionId + ' / ' + paper.themeId}">SEC / THE</td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

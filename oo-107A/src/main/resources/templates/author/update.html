@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Author</title>
+</head>
+<body>
+
+<h1>🖋️ Update Author Details</h1>
+
+<div th:if="${error}" style="color: red; border: 1px solid red; padding: 10px;">
+    <p th:text="${error}"></p>
+</div>
+
+<form th:action="@{/authors/update}" th:object="${author}" method="post">
+    <input type="hidden" th:field="*{authorId}" />
+    <p><label for="name">Name:</label><br/>
+        <input type="text" id="name" th:field="*{name}" required /></p>
+    <p><label for="affiliation">Affiliation:</label><br/>
+        <input type="text" id="affiliation" th:field="*{affiliation}" /></p>
+    <p><label for="email">Email:</label><br/>
+        <input type="email" id="email" th:field="*{email}" required /></p>
+    <p><button type="submit">Update Author</button></p>
+</form>
+
+<hr/>
+
+<form th:action="@{/authors/delete/{id}(id=*{authorId})}" method="get"
+      onsubmit="return confirm('Are you sure you want to delete this author?');">
+    <button type="submit" style="background-color: red; color: white;">
+        Delete Author
+    </button>
+</form>
+
+<p>
+    <a th:href="@{/authors/list}">🔙 Back to Author List</a>
+</p>
+
+</body>
+</html>

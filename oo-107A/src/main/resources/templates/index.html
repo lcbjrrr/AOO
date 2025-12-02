@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>ACME Application Home</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin-top: 50px; }
+        .container { max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #ccc; border-radius: 8px; }
+        .links a {
+            display: block;
+            margin: 20px 0;
+            padding: 15px;
+            text-decoration: none;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-size: 1.2em;
+        }
+        .links a:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to the ACME Publication Manager</h1>
+    <p>Please select a management area:</p>
+
+    <div class="links">
+
+        <a th:href="@{/authors/list}">
+            📚 Manage Authors
+        </a>
+
+        <a th:href="@{/papers/list}">
+            📰 Manage Research Papers
+        </a>
+
+    </div>
+</div>
+
+</body>
+</html>

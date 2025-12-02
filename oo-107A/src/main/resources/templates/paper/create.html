@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create New Paper</title>
+</head>
+<body>
+
+<h1>➕ Create New Paper</h1>
+
+<div th:if="${error}" style="color: red; border: 1px solid red; padding: 10px;">
+    <p th:text="${error}"></p>
+</div>
+
+<form th:action="@{/papers/create}" th:object="${paper}" method="post">
+
+    <p>
+        <label for="title">Title:</label><br/>
+        <input type="text" id="title" th:field="*{title}" required />
+    </p>
+
+    <p>
+        <label for="entryId">Entry ID (Unique identifier):</label><br/>
+        <input type="text" id="entryId" th:field="*{entryId}" required />
+    </p>
+
+    <p>
+        <label for="publishedDate">Published Date (YYYY-MM-DD):</label><br/>
+        <input type="date" id="publishedDate" th:field="*{publishedDate}" required />
+    </p>
+
+    <p>
+        <label for="abstractText">Abstract:</label><br/>
+        <textarea id="abstractText" th:field="*{abstractText}" rows="5" cols="50"></textarea>
+    </p>
+
+    <p>
+        <label for="keywords">Keywords (Comma Separated):</label><br/>
+        <input type="text" id="keywords" th:field="*{keywords}" />
+    </p>
+
+    <p>
+        <label for="sectionId">Section ID:</label><br/>
+        <input type="text" id="sectionId" th:field="*{sectionId}" />
+    </p>
+
+    <p>
+        <label for="themeId">Theme ID:</label><br/>
+        <input type="text" id="themeId" th:field="*{themeId}" />
+    </p>
+
+    <p>
+        <button type="submit">Save New Paper</button>
+    </p>
+</form>
+
+<p>
+    <a th:href="@{/papers/list}">🔙 Back to Paper List</a>
+</p>
+
+</body>
+</html>
