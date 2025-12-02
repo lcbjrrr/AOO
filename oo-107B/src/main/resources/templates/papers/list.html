@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Paper List</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        /* Style for the edit icon */
+        .edit-icon {
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+<h1>📄 Paper Management</h1>
+
+<p th:if="${message}" style="color: green; font-weight: bold;" th:text="${message}"></p>
+<p th:if="${error}" style="color: red; font-weight: bold;" th:text="${error}"></p>
+
+<p><a href="/papers/create">Create New Paper</a> | <a href="/authors">Go to Authors</a></p>
+
+<table th:if="${!papers.empty}">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Title</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="paper : ${papers}">
+        <td th:text="${paper.paperId}">1</td>
+        <td>
+            <a th:href="@{'' + ${paper.entryId}}" th:text="${paper.title}" target="_blank">A Novel Approach</a>
+        </td>
+        <td>
+            <a th:href="@{/papers/{id}/edit(id=${paper.paperId})}" class="edit-icon" title="Edit Paper">✏️</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p th:unless="${!papers.empty}">No papers found.</p>
+</body>
+</html>

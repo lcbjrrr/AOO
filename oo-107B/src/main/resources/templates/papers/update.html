@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title th:text="${pageTitle}"></title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .remove-icon {
+            color: red;
+            cursor: pointer;
+            margin-left: 10px;
+            background: none;
+            border: none;
+            padding: 0;
+            font-size: 1em;
+        }
+        .association-list { list-style: none; padding: 0; }
+        .association-list li { margin-bottom: 8px; border-bottom: 1px dotted #eee; padding-bottom: 5px; }
+        /* Removed .danger-zone styles */
+    </style>
+</head>
+<body>
+<a href="/papers">← Back to Paper List</a>
+<h1 th:text="${pageTitle}">Edit Paper</h1>
+
+<p th:if="${message}" style="color: green; font-weight: bold;" th:text="${message}"></p>
+<p th:if="${error}" style="color: red; font-weight: bold;" th:text="${error}"></p>
+
+<h2>📄 Paper Details</h2>
+<form th:action="@{/papers/update}" th:object="${paper}" method="post">
+    <input type="hidden" th:field="*{paperId}" />
+    <div><label for="title">Title:</label>
+        <input type="text" id="title" th:field="*{title}" required /></div><br/>
+    <div><label for="entryId">Entry ID (Unique):</label>
+        <input type="text" id="entryId" th:field="*{entryId}" required /></div><br/>
+    <div><label for="keywords">keywords:</label>
+        <input type="text" id="keywords" th:field="*{keywords}" required /></div><br/>
+    <div><label for="abstractText">Abstract:</label>
+        <textarea id="abstractText" th:field="*{abstractText}" rows="4" cols="50"></textarea></div><br/>
+    <div><button type="submit">Update Paper Details</button></div>
+</form>
+
+<hr/>
+
+<h2>👥 Paper Authors</h2>
+
+<ul class="association-list" th:if="${!paper.authors.empty}">
+    <li th:each="author : ${paper.authors}">
+        <a th:href="@{/authors/{id}/edit(id=${author.authorId})}" th:text="${author.name} + ' (' + ${author.email} + ')'">Author Name (Email)</a>
+
+        <form th:action="@{/papers/removeAuthor}" method="post" style="display: inline;" onsubmit="return confirm('Are you sure you want to remove author: ' + event.target.elements.namedItem('authorName').value + ' from this paper?');">
+            <input type="hidden" name="authorToRemoveId" th:value="${author.authorId}" />
+            <input type="hidden" name="paperId" th:value="${paper.paperId}" />
+            <input type="hidden" name="authorName" th:value="${author.name}" />
+            <button type="submit" class="remove-icon" title="Remove association">🗑️</button>
+        </form>
+    </li>
+</ul>
+<p th:if="${paper.authors.empty}">No authors currently associated.</p>
+
+<hr/>
+
+<h3>+ Add New Author</h3>
+<div th:if="${availableAuthors.empty}">
+    <p>All registered authors are already associated with this paper.</p>
+</div>
+<form th:action="@{/papers/addAuthor}" method="post" th:unless="${availableAuthors.empty}">
+    <input type="hidden" name="paperId" th:value="${paper.paperId}" />
+
+    <label for="authorToAddId">Select Author:</label>
+    <select id="authorToAddId" name="authorToAddId" required>
+        <option value="">-- Select an author --</option>
+        <option
+                th:each="author : ${availableAuthors}"
+                th:value="${author.authorId}"
+                th:text="${author.name} + ' (' + ${author.email} + ')'">Author Name (Email)</option>
+    </select>
+    <button type="submit">Add Author</button>
+</form>
+
+<hr/>
+
+<form th:action="@{/papers/{id}/delete(id=${paper.paperId})}" method="post" onsubmit="return confirm('WARNING: Are you sure you want to delete this PAPER permanently?');">
+    <button type="submit" style="background-color: red; color: white; padding: 10px;">Delete Paper</button>
+</form>
+
+</body>
+</html>
+

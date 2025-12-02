@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Create Paper</title>
+</head>
+<body>
+<h1>Create New Paper</h1>
+<a href="/papers">Back to Paper List</a>
+
+<p th:if="${error}" style="color: red; font-weight: bold;" th:text="${error}"></p>
+
+<form th:action="@{/papers}" th:object="${paper}" method="post">
+
+    <div>
+        <label for="title">Title:</label>
+        <input type="text" id="title" th:field="*{title}" required />
+    </div>
+    <br/>
+    <div>
+        <label for="entryId">Entry ID (Unique):</label>
+        <input type="text" id="entryId" th:field="*{entryId}" required />
+    </div>
+    <br/>
+    <div>
+        <label for="keywords">keywords:</label>
+        <input type="text" id="keywords" th:field="*{keywords}" required />
+    </div>
+    <br/>
+    <div>
+        <label for="abstractText">Abstract:</label>
+        <textarea id="abstractText" th:field="*{abstractText}" rows="4" cols="50"></textarea>
+    </div>
+    <br/>
+    <div>
+        <button type="submit">Create Paper</button>
+    </div>
+</form>
+</body>
+</html>

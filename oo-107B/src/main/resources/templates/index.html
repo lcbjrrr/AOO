@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Management Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            border: 1px solid #ccc;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .button-link {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border-radius: 5px;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+        .button-link:hover {
+            background-color: #0056b3;
+        }
+        .author-button { background-color: #28a745; }
+        .author-button:hover { background-color: #1e7e34; }
+        .paper-button { background-color: #dc3545; }
+        .paper-button:hover { background-color: #bd2130; }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1>Welcome to the Research Management System</h1>
+    <p>Please select an entity to manage:</p>
+
+    <a href="/authors" class="button-link author-button">
+        📚 Manage Authors
+    </a>
+
+    <a href="/papers" class="button-link paper-button">
+        📄 Manage Papers
+    </a>
+</div>
+</body>
+</html>

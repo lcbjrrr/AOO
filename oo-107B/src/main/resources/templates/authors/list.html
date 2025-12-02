@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Author List</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        .message { color: green; font-weight: bold; }
+        .error { color: red; font-weight: bold; }
+        /* Style for the edit icon to remove underline if desired */
+        .edit-icon {
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+<h1>📚 Author Management</h1>
+
+<p th:if="${message}" class="message" th:text="${message}"></p>
+<p th:if="${error}" class="error" th:text="${error}"></p>
+
+<p><a href="/authors/create">Create New Author</a> | <a href="/papers">Go to Papers</a></p>
+
+<table th:if="${!authors.empty}">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="author : ${authors}">
+        <td th:text="${author.authorId}">1</td>
+        <td th:text="${author.name}">John Doe</td>
+        <td>
+            <a th:href="@{'mailto:' + ${author.email}}" th:text="${author.email}">john.doe@example.com</a>
+        </td>
+        <td>
+            <a th:href="@{/authors/{id}/edit(id=${author.authorId})}" class="edit-icon" title="Edit Author">✏️</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<p th:unless="${!authors.empty}">No authors found.</p>
+</body>
+</html>
